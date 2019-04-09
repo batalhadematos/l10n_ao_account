@@ -22,6 +22,15 @@ Includes:
     - Provinces;
     - Banks;
     - Basic Tax setup (IVA);
+    
+Install Instructions:
+- Extract module contents to a "l10n_ao" folder and add it to your 
+"custom_addons" folder;
+- Create an empty database and choose Angola as the database country;
+- Install Invoicing app;
+
+Done!
+    
     """,
     
     'depends': ['base',
