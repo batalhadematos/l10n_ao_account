@@ -1,0 +1,4561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+	
+	    <record id="ao_chart_template" model="account.chart.template">
+			<field name="name">ANGOLA - PLANO DE CONTAS (PGCA)</field>
+			<field name="cash_account_code_prefix">45</field>
+			<field name="bank_account_code_prefix">43</field>
+			<field name="transfer_account_code_prefix">47</field>
+			<field name="currency_id" ref="base.AOA"/>
+			<field name="code_digits">6</field>
+		</record>	
+	
+		<record id="ao_1111" model="account.account.template">
+		<field name="code">1111</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Terrenos em bruto</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1112" model="account.account.template">
+		<field name="code">1112</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Terrenos com arranjos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1113" model="account.account.template">
+		<field name="code">1113</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subsolo</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_11141" model="account.account.template">
+		<field name="code">11141</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Relativos a edifícios industriais</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_11142" model="account.account.template">
+		<field name="code">11142</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Relativos a edifícios administrativos e comerciais</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_11143" model="account.account.template">
+		<field name="code">11143</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Relativos a outros edifícios</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_11211" model="account.account.template">
+		<field name="code">11211</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Integrados em conjuntos industriais</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_11212" model="account.account.template">
+		<field name="code">11212</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Integrados em conjuntos administrativos e comerciais</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_11213" model="account.account.template">
+		<field name="code">11213</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros conjuntos industriais</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_11214" model="account.account.template">
+		<field name="code">11214</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Implantados em propriedade alheia</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1122" model="account.account.template">
+		<field name="code">1122</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outras construções</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1123" model="account.account.template">
+		<field name="code">1123</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Instalações</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1131" model="account.account.template">
+		<field name="code">1131</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Material industrial</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1132" model="account.account.template">
+		<field name="code">1132</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Ferramentas industriais</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1133" model="account.account.template">
+		<field name="code">1133</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Melhoramentos em equipamentos básicos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1141" model="account.account.template">
+		<field name="code">1141</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Equipamentos de carga e transporte</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1151" model="account.account.template">
+		<field name="code">1151</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Equipamento administrativo</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1161" model="account.account.template">
+		<field name="code">1161</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Taras e vasilhame</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1191" model="account.account.template">
+		<field name="code">1191</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outras Imobilizações Corpóreas</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1211" model="account.account.template">
+		<field name="code">1211</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Trespasses</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1221" model="account.account.template">
+		<field name="code">1221</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Despesas de investigação e desenvolvimento</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1231" model="account.account.template">
+		<field name="code">1231</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Propriedade industrial e outros direitos e contratos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1241" model="account.account.template">
+		<field name="code">1241</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Despesas de constituição</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1291" model="account.account.template">
+		<field name="code">1291</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outras Imobilizações Incorpóreas</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1311" model="account.account.template">
+		<field name="code">1311</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Partes de Capital</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1312" model="account.account.template">
+		<field name="code">1312</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Obrigações e Títulos de Participação</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1313" model="account.account.template">
+		<field name="code">1313</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Empréstimos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1321" model="account.account.template">
+		<field name="code">1321</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Partes de Capital</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1322" model="account.account.template">
+		<field name="code">1322</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Obrigações e Títulos de Participação</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1323" model="account.account.template">
+		<field name="code">1323</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Empréstimos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1331" model="account.account.template">
+		<field name="code">1331</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Partes de Capital</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1332" model="account.account.template">
+		<field name="code">1332</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Obrigações e Títulos de Participação</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1333" model="account.account.template">
+		<field name="code">1333</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Empréstimos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1341" model="account.account.template">
+		<field name="code">1341</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Investimentos em Imóveis</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1351" model="account.account.template">
+		<field name="code">1351</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Fundos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1391" model="account.account.template">
+		<field name="code">1391</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Diamantes</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1392" model="account.account.template">
+		<field name="code">1392</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Ouro</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1393" model="account.account.template">
+		<field name="code">1393</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Depósitos Bancários</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1411" model="account.account.template">
+		<field name="code">1411</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Obra em curso</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1421" model="account.account.template">
+		<field name="code">1421</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Obra em curso</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1471" model="account.account.template">
+		<field name="code">1471</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Adiantamentos por conta de imobilizado Corpóreo</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1481" model="account.account.template">
+		<field name="code">1481</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Adiantamentos por conta de imobilizado Incorpóreo</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1491" model="account.account.template">
+		<field name="code">1491</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Adiantamentos por conta de investimentos financeiros</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1811" model="account.account.template">
+		<field name="code">1811</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Terrenos e recursos naturais</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1812" model="account.account.template">
+		<field name="code">1812</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Edifícios e outras construções</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1813" model="account.account.template">
+		<field name="code">1813</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Equipamento básico</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1814" model="account.account.template">
+		<field name="code">1814</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Equipamento de carga e transporte</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1815" model="account.account.template">
+		<field name="code">1815</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Equipamento administrativo</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1816" model="account.account.template">
+		<field name="code">1816</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Taras e vasilhame</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1819" model="account.account.template">
+		<field name="code">1819</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outras Imobilizações Corpóreas</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1821" model="account.account.template">
+		<field name="code">1821</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Trespasses</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1822" model="account.account.template">
+		<field name="code">1822</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Despesas de investigação e desenvolvimento</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1823" model="account.account.template">
+		<field name="code">1823</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Propriedade industrial e outros direitos e contratos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1824" model="account.account.template">
+		<field name="code">1824</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Despesas de constituiçào</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1829" model="account.account.template">
+		<field name="code">1829</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outras Imobilizações Incorpóreas</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1831" model="account.account.template">
+		<field name="code">1831</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Terrenos e recursos naturais</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1832" model="account.account.template">
+		<field name="code">1832</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">edifícios e outras construções</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1911" model="account.account.template">
+		<field name="code">1911</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Partes de Capital</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1912" model="account.account.template">
+		<field name="code">1912</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Obrigações e Títulos de Participação</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1913" model="account.account.template">
+		<field name="code">1913</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Empréstimos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1921" model="account.account.template">
+		<field name="code">1921</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Partes de Capital</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1922" model="account.account.template">
+		<field name="code">1922</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Obrigações e Títulos de Participação</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1923" model="account.account.template">
+		<field name="code">1923</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Empréstimos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1931" model="account.account.template">
+		<field name="code">1931</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Partes de Capital</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1932" model="account.account.template">
+		<field name="code">1932</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Obrigações e Títulos de Participação</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1933" model="account.account.template">
+		<field name="code">1933</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Empréstimos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1941" model="account.account.template">
+		<field name="code">1941</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Partes de Capital</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1991" model="account.account.template">
+		<field name="code">1991</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Diamantes</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1992" model="account.account.template">
+		<field name="code">1992</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Ouro</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_1993" model="account.account.template">
+		<field name="code">1993</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Depósitos Bancários</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2111" model="account.account.template">
+		<field name="code">2111</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Matérias-primas, Subsidiárias e de Consumo</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2121" model="account.account.template">
+		<field name="code">2121</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Aquisição mercadorias</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2171" model="account.account.template">
+		<field name="code">2171</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Devoluções de Compras</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2181" model="account.account.template">
+		<field name="code">2181</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Descontos e Abatimentos em Compras</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2191" model="account.account.template">
+		<field name="code">2191</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Descontos Diversos</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2211" model="account.account.template">
+		<field name="code">2211</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Matérias-primas</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2221" model="account.account.template">
+		<field name="code">2221</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Matérias Subsidiárias</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2231" model="account.account.template">
+		<field name="code">2231</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Materiais Diversos</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2241" model="account.account.template">
+		<field name="code">2241</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Embalagens de Consumo</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2251" model="account.account.template">
+		<field name="code">2251</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros materiais</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2311" model="account.account.template">
+		<field name="code">2311</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Produtos e trabalhos em curso</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2321" model="account.account.template">
+		<field name="code">2321</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Produtos e trabalhos em curso</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2411" model="account.account.template">
+		<field name="code">2411</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Produtos acabados</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2421" model="account.account.template">
+		<field name="code">2421</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Produtos Intermédios</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2491" model="account.account.template">
+		<field name="code">2491</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Em poder de terceiros</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2511" model="account.account.template">
+		<field name="code">2511</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subprodutos</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2521" model="account.account.template">
+		<field name="code">2521</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Desperdícios, Resíduos e Refugos</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2611" model="account.account.template">
+		<field name="code">2611</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Mercadorias</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2621" model="account.account.template">
+		<field name="code">2621</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Mercadorias</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2691" model="account.account.template">
+		<field name="code">2691</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Em poder de terceiros</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2711" model="account.account.template">
+		<field name="code">2711</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Matérias-primas</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2721" model="account.account.template">
+		<field name="code">2721</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros materiais</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2731" model="account.account.template">
+		<field name="code">2731</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Mercadorias</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2811" model="account.account.template">
+		<field name="code">2811</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Matérias-primas e outros materiais</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2821" model="account.account.template">
+		<field name="code">2821</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Mercadorias</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2911" model="account.account.template">
+		<field name="code">2911</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Provisão para Depreciação de Existências</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2921" model="account.account.template">
+		<field name="code">2921</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Matérias-primas, Subsidiárias e de Consumo</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2931" model="account.account.template">
+		<field name="code">2931</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Produtos e trabalhos em curso</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2941" model="account.account.template">
+		<field name="code">2941</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Produtos acabados e Intermédios</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2951" model="account.account.template">
+		<field name="code">2951</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subprodutos, Desperdícios, Resíduos e Refugos</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_2961" model="account.account.template">
+		<field name="code">2961</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Mercadorias</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_31111" model="account.account.template">
+		<field name="code">31111</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subsidiárias</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_31112" model="account.account.template">
+		<field name="code">31112</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Associadas</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_31121" model="account.account.template">
+		<field name="code">31121</field>
+		<field name="reconcile" eval="True"/>
+		<field name="name">Nacionais</field>
+		<field name="user_type_id" ref="account.data_account_type_receivable"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_31122" model="account.account.template">
+		<field name="code">31122</field>
+		<field name="reconcile" eval="True"/>
+		<field name="name">Estrangeiros</field>
+		<field name="user_type_id" ref="account.data_account_type_receivable"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_31211" model="account.account.template">
+		<field name="code">31211</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subsidiárias</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_31212" model="account.account.template">
+		<field name="code">31212</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Associadas</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_31221" model="account.account.template">
+		<field name="code">31221</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Nacionais</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_31222" model="account.account.template">
+		<field name="code">31222</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Estrangeiros</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_31311" model="account.account.template">
+		<field name="code">31311</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subsidiárias</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_31312" model="account.account.template">
+		<field name="code">31312</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Associadas</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_31321" model="account.account.template">
+		<field name="code">31321</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Nacionais</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_31322" model="account.account.template">
+		<field name="code">31322</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Estrangeiros</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3181" model="account.account.template">
+		<field name="code">3181</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Clientes - correntes</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3182" model="account.account.template">
+		<field name="code">3182</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Clientes - Títulos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3191" model="account.account.template">
+		<field name="code">3191</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Adiantamentos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3192" model="account.account.template">
+		<field name="code">3192</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Embalagens a devolver</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3193" model="account.account.template">
+		<field name="code">3193</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Material a Consignação</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_32111" model="account.account.template">
+		<field name="code">32111</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subsidiárias</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_32112" model="account.account.template">
+		<field name="code">32112</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Associadas</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_32121" model="account.account.template">
+		<field name="code">32121</field>
+		<field name="reconcile" eval="True"/>
+		<field name="name">Nacionais</field>
+		<field name="user_type_id" ref="account.data_account_type_payable"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_32122" model="account.account.template">
+		<field name="code">32122</field>
+		<field name="reconcile" eval="True"/>
+		<field name="name">Estrangeiros</field>
+		<field name="user_type_id" ref="account.data_account_type_payable"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_32211" model="account.account.template">
+		<field name="code">32211</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subsidiárias</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_32212" model="account.account.template">
+		<field name="code">32212</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Associadas</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_32221" model="account.account.template">
+		<field name="code">32221</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Nacionais</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_32222" model="account.account.template">
+		<field name="code">32222</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Estrangeiros</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3281" model="account.account.template">
+		<field name="code">3281</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Fornecedores - Facturas em Recepção e Conferência</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3291" model="account.account.template">
+		<field name="code">3291</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Adiantamentos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3292" model="account.account.template">
+		<field name="code">3292</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Embalagens a devolver</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3293" model="account.account.template">
+		<field name="code">3293</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Material a Consignação</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_33111" model="account.account.template">
+		<field name="code">33111</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Banco</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_33121" model="account.account.template">
+		<field name="code">33121</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Banco</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_33211" model="account.account.template">
+		<field name="code">33211</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Entidade</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_33221" model="account.account.template">
+		<field name="code">33221</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Entidade</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3331" model="account.account.template">
+		<field name="code">3331</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Entidade</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3391" model="account.account.template">
+		<field name="code">3391</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Entidade</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3411" model="account.account.template">
+		<field name="code">3411</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Imposto Corrente</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3412" model="account.account.template">
+		<field name="code">3412</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Pagamentos por conta</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_34131" model="account.account.template">
+		<field name="code">34131</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Retenção na Fonte</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3414" model="account.account.template">
+		<field name="code">3414</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Imposto Estimado</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3415" model="account.account.template">
+		<field name="code">3415</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Imposto Liquidado</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3416" model="account.account.template">
+		<field name="code">3416</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Apuramento</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3417" model="account.account.template">
+		<field name="code">3417</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Imposto a Pagar</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3418" model="account.account.template">
+		<field name="code">3418</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Imposto a Recuperar</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3421" model="account.account.template">
+		<field name="code">3421</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Imposto de Consumo ...%</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3422" model="account.account.template">
+		<field name="code">3422</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Imposto de Consumo ...%</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3431" model="account.account.template">
+		<field name="code">3431</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Trabalhadores Dependentes</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3432" model="account.account.template">
+		<field name="code">3432</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Trabalhadores Independentes</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3441" model="account.account.template">
+		<field name="code">3441</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Taxa de Circulação</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3451" model="account.account.template">
+		<field name="code">3451</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">INSS Conta do Trabalhador</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3452" model="account.account.template">
+		<field name="code">3452</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">INSS Conta da Empresa</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3471" model="account.account.template">
+		<field name="code">3471</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Retenção na Fonte</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3481" model="account.account.template">
+		<field name="code">3481</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subsídios a Preços</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3491" model="account.account.template">
+		<field name="code">3491</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Imposto de Selo</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35111" model="account.account.template">
+		<field name="code">35111</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">C/Subscrição</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35112" model="account.account.template">
+		<field name="code">35112</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">C/Adiatamentos sobre lucro</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35113" model="account.account.template">
+		<field name="code">35113</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">C/Lucros</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35114" model="account.account.template">
+		<field name="code">35114</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Empréstimos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35121" model="account.account.template">
+		<field name="code">35121</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">C/Subscrição</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35122" model="account.account.template">
+		<field name="code">35122</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">C/Adiantamentos sobre lucro</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35123" model="account.account.template">
+		<field name="code">35123</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">C/Lucro</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35124" model="account.account.template">
+		<field name="code">35124</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">C/Empréstimo</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35131" model="account.account.template">
+		<field name="code">35131</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">C/Subscrição</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35132" model="account.account.template">
+		<field name="code">35132</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">C/Adiantamentos sobre lucros</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35133" model="account.account.template">
+		<field name="code">35133</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">C/Lucros</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35134" model="account.account.template">
+		<field name="code">35134</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Empréstimos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35141" model="account.account.template">
+		<field name="code">35141</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">C/Subscrição</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35142" model="account.account.template">
+		<field name="code">35142</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">C/Adiatamentos sobre lucro</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35143" model="account.account.template">
+		<field name="code">35143</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">C/Lucros</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35144" model="account.account.template">
+		<field name="code">35144</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Empréstimos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35211" model="account.account.template">
+		<field name="code">35211</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">C/Subscrição</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35212" model="account.account.template">
+		<field name="code">35212</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">C/Adiatamentos sobre lucro</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35213" model="account.account.template">
+		<field name="code">35213</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">C/Lucros</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35214" model="account.account.template">
+		<field name="code">35214</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Empréstimos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35221" model="account.account.template">
+		<field name="code">35221</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">C/Subscrição</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35222" model="account.account.template">
+		<field name="code">35222</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">C/Adiantamentos sobre lucros</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35223" model="account.account.template">
+		<field name="code">35223</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">C/Lucros</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35224" model="account.account.template">
+		<field name="code">35224</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Empréstimos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35231" model="account.account.template">
+		<field name="code">35231</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">C/Subscrição</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35232" model="account.account.template">
+		<field name="code">35232</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">C/Adiantamentos sobre lucros</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35233" model="account.account.template">
+		<field name="code">35233</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">C/Lucros</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35234" model="account.account.template">
+		<field name="code">35234</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Empréstimos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35241" model="account.account.template">
+		<field name="code">35241</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">C/Subscrição</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35242" model="account.account.template">
+		<field name="code">35242</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">C/Adiantamentos sobre lucros</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35243" model="account.account.template">
+		<field name="code">35243</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">C/Lucros</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_35244" model="account.account.template">
+		<field name="code">35244</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Empréstimos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_36111" model="account.account.template">
+		<field name="code">36111</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Órgãos Sociais</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_36121" model="account.account.template">
+		<field name="code">36121</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Empregados</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_36211" model="account.account.template">
+		<field name="code">36211</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Órgãos Sociais</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_36221" model="account.account.template">
+		<field name="code">36221</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Empregados</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3631" model="account.account.template">
+		<field name="code">3631</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Pessoal - adiantamentos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3691" model="account.account.template">
+		<field name="code">3691</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Pessoal - outros</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3711" model="account.account.template">
+		<field name="code">3711</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Corpóreo</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3712" model="account.account.template">
+		<field name="code">3712</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Incorpóreo</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3713" model="account.account.template">
+		<field name="code">3713</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Financeiro</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3721" model="account.account.template">
+		<field name="code">3721</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Corpóreo</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3722" model="account.account.template">
+		<field name="code">3722</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Incorpóreo</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3723" model="account.account.template">
+		<field name="code">3723</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Financeiro</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3731" model="account.account.template">
+		<field name="code">3731</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Vendas</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3732" model="account.account.template">
+		<field name="code">3732</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Prestações de Serviços</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3733" model="account.account.template">
+		<field name="code">3733</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Juros</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3741" model="account.account.template">
+		<field name="code">3741</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Descontos de Emissão de Obrigações</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3742" model="account.account.template">
+		<field name="code">3742</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Descontos de Emissão de Títulos de Participação</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3751" model="account.account.template">
+		<field name="code">3751</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Remunerações</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3752" model="account.account.template">
+		<field name="code">3752</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Juros</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3761" model="account.account.template">
+		<field name="code">3761</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Prémios de Emissão de Obrigações</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3762" model="account.account.template">
+		<field name="code">3762</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Prémios de Emissão de Títulos de Participação</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3763" model="account.account.template">
+		<field name="code">3763</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subsídios para investimento</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3764" model="account.account.template">
+		<field name="code">3764</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Diferenças de Câmbio Favoráveis Reversíveis</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3771" model="account.account.template">
+		<field name="code">3771</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Transacções entre a sede e as Dependências da Empresa</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3791" model="account.account.template">
+		<field name="code">3791</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros valores a receber e a pagar</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_38111" model="account.account.template">
+		<field name="code">38111</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Grupo</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_38112" model="account.account.template">
+		<field name="code">38112</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Não grupo</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_38121" model="account.account.template">
+		<field name="code">38121</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Grupo</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_38122" model="account.account.template">
+		<field name="code">38122</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Não Grupo</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_38131" model="account.account.template">
+		<field name="code">38131</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Grupo</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_38132" model="account.account.template">
+		<field name="code">38132</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Não grupo</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3821" model="account.account.template">
+		<field name="code">3821</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Provisões para saldos devedores de fornecedores</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3831" model="account.account.template">
+		<field name="code">3831</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Participantes</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3832" model="account.account.template">
+		<field name="code">3832</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Participadas</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3841" model="account.account.template">
+		<field name="code">3841</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Provisões p/ Dívidas do pessoal</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3891" model="account.account.template">
+		<field name="code">3891</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Vendas imobilizado</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3911" model="account.account.template">
+		<field name="code">3911</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Provisões para Pensões</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3921" model="account.account.template">
+		<field name="code">3921</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Provisões para processos judiciais em curso</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3931" model="account.account.template">
+		<field name="code">3931</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Provisões para acidentes de trabalho</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3941" model="account.account.template">
+		<field name="code">3941</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Provisões para garantias dadas a clientes</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_3991" model="account.account.template">
+		<field name="code">3991</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Provisões para outros riscos e encargos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_4111" model="account.account.template">
+		<field name="code">4111</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Empresas do grupo</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_4112" model="account.account.template">
+		<field name="code">4112</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Associadas</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_4113" model="account.account.template">
+		<field name="code">4113</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outras Empresas</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_4121" model="account.account.template">
+		<field name="code">4121</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Empresas do grupo</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_4122" model="account.account.template">
+		<field name="code">4122</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Associadas</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_4123" model="account.account.template">
+		<field name="code">4123</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outras Empresas</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_4131" model="account.account.template">
+		<field name="code">4131</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Títulos da Dívida Pública</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_4211" model="account.account.template">
+		<field name="code">4211</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Banco</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_4221" model="account.account.template">
+		<field name="code">4221</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Banco</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_4311" model="account.account.template">
+		<field name="code">4311</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Banco</field>
+		<field name="user_type_id" ref="account.data_account_type_liquidity"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_4321" model="account.account.template">
+		<field name="code">4321</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Banco</field>
+		<field name="user_type_id" ref="account.data_account_type_liquidity"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_4411" model="account.account.template">
+		<field name="code">4411</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Banco</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_4421" model="account.account.template">
+		<field name="code">4421</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Banco</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_4511" model="account.account.template">
+		<field name="code">4511</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Caixa</field>
+		<field name="user_type_id" ref="account.data_account_type_liquidity"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_4521" model="account.account.template">
+		<field name="code">4521</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Valores para depositar</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_4531" model="account.account.template">
+		<field name="code">4531</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Salários</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_481" model="account.account.template">
+		<field name="code">481</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Banco</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_482" model="account.account.template">
+		<field name="code">482</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Banco</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_4911" model="account.account.template">
+		<field name="code">4911</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Acções</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_4912" model="account.account.template">
+		<field name="code">4912</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Obrigações</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_4913" model="account.account.template">
+		<field name="code">4913</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Títulos da Dívida Pública</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_4921" model="account.account.template">
+		<field name="code">4921</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outras Aplicações de tesouraria</field>
+		<field name="user_type_id" ref="account.data_account_type_current_assets"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_5211" model="account.account.template">
+		<field name="code">5211</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Valor nominal</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_5221" model="account.account.template">
+		<field name="code">5221</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Descontos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_5231" model="account.account.template">
+		<field name="code">5231</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Prémios</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_530" model="account.account.template">
+		<field name="code">530</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Prémios de emissão</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_540" model="account.account.template">
+		<field name="code">540</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Prestações Suplementares</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_550" model="account.account.template">
+		<field name="code">550</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Reservas Legais</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_5611" model="account.account.template">
+		<field name="code">5611</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Decreto-Lei Nº</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_5612" model="account.account.template">
+		<field name="code">5612</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Decreto-Lei Nº</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_5621" model="account.account.template">
+		<field name="code">5621</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Avaliação</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_5622" model="account.account.template">
+		<field name="code">5622</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Realização</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_570" model="account.account.template">
+		<field name="code">570</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Reservas com fins especiais</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_580" model="account.account.template">
+		<field name="code">580</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Reservas Livres</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6111" model="account.account.template">
+		<field name="code">6111</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Mercado nacional</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6112" model="account.account.template">
+		<field name="code">6112</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Mercado estrangeiro</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6121" model="account.account.template">
+		<field name="code">6121</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Mercado nacional</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6122" model="account.account.template">
+		<field name="code">6122</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Mercado estrangeiro</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6131" model="account.account.template">
+		<field name="code">6131</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Mercado nacional</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6132" model="account.account.template">
+		<field name="code">6132</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Mercado estrangeiro</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6141" model="account.account.template">
+		<field name="code">6141</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Mercado nacional</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6142" model="account.account.template">
+		<field name="code">6142</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Mercado estrangeiro</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6151" model="account.account.template">
+		<field name="code">6151</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subsídios a Preços</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6171" model="account.account.template">
+		<field name="code">6171</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Mercado nacional</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6172" model="account.account.template">
+		<field name="code">6172</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Mercado estrangeiro</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6181" model="account.account.template">
+		<field name="code">6181</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Mercado nacional</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6182" model="account.account.template">
+		<field name="code">6182</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Mercado estrangeiro</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6191" model="account.account.template">
+		<field name="code">6191</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Transferência para Resultados Operacionais</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6211" model="account.account.template">
+		<field name="code">6211</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Mercado nacional</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6212" model="account.account.template">
+		<field name="code">6212</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Mercado estrangeiro</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6221" model="account.account.template">
+		<field name="code">6221</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Mercado nacional</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6222" model="account.account.template">
+		<field name="code">6222</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Mercado estrangeiro</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6281" model="account.account.template">
+		<field name="code">6281</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Mercado nacional</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6282" model="account.account.template">
+		<field name="code">6282</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Mercado estrangeiro</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6291" model="account.account.template">
+		<field name="code">6291</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Transferência para Resultados Operacionais</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6311" model="account.account.template">
+		<field name="code">6311</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Aluguer de equipamento</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6312" model="account.account.template">
+		<field name="code">6312</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Cedência de pessoal</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6313" model="account.account.template">
+		<field name="code">6313</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Cedência de energia</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6314" model="account.account.template">
+		<field name="code">6314</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Estudos, projectos e Assistência Técnica</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6321" model="account.account.template">
+		<field name="code">6321</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Royalties</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6331" model="account.account.template">
+		<field name="code">6331</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subsídios a  Exploração</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6341" model="account.account.template">
+		<field name="code">6341</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subsídios a investimento</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6381" model="account.account.template">
+		<field name="code">6381</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros proveitos e Ganhos Operacionais</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6391" model="account.account.template">
+		<field name="code">6391</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Transferência para Resultados Operacionais</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6411" model="account.account.template">
+		<field name="code">6411</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Income</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6421" model="account.account.template">
+		<field name="code">6421</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Income</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6431" model="account.account.template">
+		<field name="code">6431</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Produtos Intermédios</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6491" model="account.account.template">
+		<field name="code">6491</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Transferência para Resultados Operacionais</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6511" model="account.account.template">
+		<field name="code">6511</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Corpóreo</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6512" model="account.account.template">
+		<field name="code">6512</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Incorpóreo</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6513" model="account.account.template">
+		<field name="code">6513</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Financeiro</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6514" model="account.account.template">
+		<field name="code">6514</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Em curso</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6521" model="account.account.template">
+		<field name="code">6521</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Para encargos a repartir por Exercícios futuros</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6591" model="account.account.template">
+		<field name="code">6591</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Transferência para Resultados Operacionais</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_66111" model="account.account.template">
+		<field name="code">66111</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Obrigações</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_66113" model="account.account.template">
+		<field name="code">66113</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Títulos de Participação</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_66114" model="account.account.template">
+		<field name="code">66114</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Empréstimos</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_66119" model="account.account.template">
+		<field name="code">66119</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_66121" model="account.account.template">
+		<field name="code">66121</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Dívidas recebidas a Prestações</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_66122" model="account.account.template">
+		<field name="code">66122</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">De Empréstimos a terceiros</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6614" model="account.account.template">
+		<field name="code">6614</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">De Aplicações de tesouraria</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6615" model="account.account.template">
+		<field name="code">6615</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Descontos de Títulos</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6621" model="account.account.template">
+		<field name="code">6621</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Realizadas</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6622" model="account.account.template">
+		<field name="code">6622</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Não realizadas</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6631" model="account.account.template">
+		<field name="code">6631</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Descontos de pronto pagamento obtidos</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6641" model="account.account.template">
+		<field name="code">6641</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Rendimentos de investimentos em Imóveis</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6651" model="account.account.template">
+		<field name="code">6651</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Acções/Quotas em outras Empresa</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6652" model="account.account.template">
+		<field name="code">6652</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Acções/Quotas Incluídas nos fundos</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6653" model="account.account.template">
+		<field name="code">6653</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Acções/Quotas Incluídas nos Títulos Negociáveis</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_66611" model="account.account.template">
+		<field name="code">66611</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subsidiárias</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_66612" model="account.account.template">
+		<field name="code">66612</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Associadas</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_66613" model="account.account.template">
+		<field name="code">66613</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outras Empresas</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_66614" model="account.account.template">
+		<field name="code">66614</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Imóveis</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_66615" model="account.account.template">
+		<field name="code">66615</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Fundos</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_66619" model="account.account.template">
+		<field name="code">66619</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros investimentos</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_66620" model="account.account.template">
+		<field name="code">66620</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Títulos Negociáveis</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_66711" model="account.account.template">
+		<field name="code">66711</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subsidiárias</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_66712" model="account.account.template">
+		<field name="code">66712</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Associadas</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_66713" model="account.account.template">
+		<field name="code">66713</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outras Empresas</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_66714" model="account.account.template">
+		<field name="code">66714</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Fundos</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_66719" model="account.account.template">
+		<field name="code">66719</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros investimentos</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_66721" model="account.account.template">
+		<field name="code">66721</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Títulos Negociáveis</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_66722" model="account.account.template">
+		<field name="code">66722</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Depósitos a prazo</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_66723" model="account.account.template">
+		<field name="code">66723</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros Depósitos</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_66729" model="account.account.template">
+		<field name="code">66729</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros investimentos</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6711" model="account.account.template">
+		<field name="code">6711</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subsidiárias</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6712" model="account.account.template">
+		<field name="code">6712</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Associadas</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6791" model="account.account.template">
+		<field name="code">6791</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Transferência para Resultados em filiais e associadas</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_680111" model="account.account.template">
+		<field name="code">680111</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Matérias-primas, Subsidiárias e de Consumo</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_680112" model="account.account.template">
+		<field name="code">680112</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Produtos e trabalhos em curso</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_680113" model="account.account.template">
+		<field name="code">680113</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Produtos acabados e Intermédios</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_680114" model="account.account.template">
+		<field name="code">680114</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subprodutos; Desperdícios; Resíduos e Refugos</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_680115" model="account.account.template">
+		<field name="code">680115</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Mercadorias</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_680121" model="account.account.template">
+		<field name="code">680121</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Clientes</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_680122" model="account.account.template">
+		<field name="code">680122</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Clientes-Títulos a receber</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_680123" model="account.account.template">
+		<field name="code">680123</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Clientes-Cobranças Duvidosa</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_680124" model="account.account.template">
+		<field name="code">680124</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Saldos devedores de fornecedores</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_680125" model="account.account.template">
+		<field name="code">680125</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Participantes e participadas</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_680126" model="account.account.template">
+		<field name="code">680126</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Dívidas do pessoal</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_680129" model="account.account.template">
+		<field name="code">680129</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros saldos a receber</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_680131" model="account.account.template">
+		<field name="code">680131</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Pensões</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_680132" model="account.account.template">
+		<field name="code">680132</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Processos judiciais em curso</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_680133" model="account.account.template">
+		<field name="code">680133</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Acidentes de trabalho</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_680134" model="account.account.template">
+		<field name="code">680134</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Garantias dadas a clientes</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_680139" model="account.account.template">
+		<field name="code">680139</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros riscos e encargos</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_68021" model="account.account.template">
+		<field name="code">68021</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Imobilizações Corpóreas</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_68022" model="account.account.template">
+		<field name="code">68022</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Imobilizações Incorpóreas</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_68031" model="account.account.template">
+		<field name="code">68031</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Venda de Imobilizações Corpóreas</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_68032" model="account.account.template">
+		<field name="code">68032</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Venda de Imobilizações Incorpóreas</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_68041" model="account.account.template">
+		<field name="code">68041</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Sobras</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_68051" model="account.account.template">
+		<field name="code">68051</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Recuperação de Dívidas</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_68061" model="account.account.template">
+		<field name="code">68061</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Benefícios de penalidades contratuais</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_68081" model="account.account.template">
+		<field name="code">68081</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Descontinuidade de Operações</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_68091" model="account.account.template">
+		<field name="code">68091</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Alterações de Políticas Contabilísticas</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_68101" model="account.account.template">
+		<field name="code">68101</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Estimativa Impostos</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_68102" model="account.account.template">
+		<field name="code">68102</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Restituição de Impostos</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_68111" model="account.account.template">
+		<field name="code">68111</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Donativos</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_68191" model="account.account.template">
+		<field name="code">68191</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Transferência para Resultados não Operacionais</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6911" model="account.account.template">
+		<field name="code">6911</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Ganhos resultantes de Catástrofes naturais</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6921" model="account.account.template">
+		<field name="code">6921</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Ganhos resultantes de convulsões Políticas</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6931" model="account.account.template">
+		<field name="code">6931</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Ganhos resultantes de Expropriações</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6941" model="account.account.template">
+		<field name="code">6941</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Ganhos resultantes de sinistros</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6951" model="account.account.template">
+		<field name="code">6951</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subsídios</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6961" model="account.account.template">
+		<field name="code">6961</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Anulação de passivos não Exigíveis</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_6991" model="account.account.template">
+		<field name="code">6991</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Transferência para Resultados Extraordinários</field>
+		<field name="user_type_id" ref="account.data_account_type_revenue"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7111" model="account.account.template">
+		<field name="code">7111</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Matérias-primas</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7121" model="account.account.template">
+		<field name="code">7121</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Matérias Subsidiárias</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7131" model="account.account.template">
+		<field name="code">7131</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Materiais Diversos</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7141" model="account.account.template">
+		<field name="code">7141</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Embalagens de Consumo</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7151" model="account.account.template">
+		<field name="code">7151</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros materiais</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7191" model="account.account.template">
+		<field name="code">7191</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Transferência para Resultados Operacionais</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7211" model="account.account.template">
+		<field name="code">7211</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Ordenados</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7213" model="account.account.template">
+		<field name="code">7213</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subsídio de Férias</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7214" model="account.account.template">
+		<field name="code">7214</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subsídio de Natal</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7215" model="account.account.template">
+		<field name="code">7215</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subsídio de Alimentação</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7216" model="account.account.template">
+		<field name="code">7216</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subsídio de Transporte</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7217" model="account.account.template">
+		<field name="code">7217</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Horas Extra / Prémios</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7218" model="account.account.template">
+		<field name="code">7218</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7221" model="account.account.template">
+		<field name="code">7221</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Ordenados</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7223" model="account.account.template">
+		<field name="code">7223</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subsídio de Férias</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7224" model="account.account.template">
+		<field name="code">7224</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subsídio de Natal</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7225" model="account.account.template">
+		<field name="code">7225</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subsídio de Alimentação</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7226" model="account.account.template">
+		<field name="code">7226</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subsídio de Transporte</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7227" model="account.account.template">
+		<field name="code">7227</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Horas Extra / Prémios</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7228" model="account.account.template">
+		<field name="code">7228</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7231" model="account.account.template">
+		<field name="code">7231</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Órgãos sociais</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7232" model="account.account.template">
+		<field name="code">7232</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Pessoal</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7241" model="account.account.template">
+		<field name="code">7241</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Órgãos sociais</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7242" model="account.account.template">
+		<field name="code">7242</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Pessoal</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7251" model="account.account.template">
+		<field name="code">7251</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Órgãos sociais</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7252" model="account.account.template">
+		<field name="code">7252</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Pessoal</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7261" model="account.account.template">
+		<field name="code">7261</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Órgãos sociais</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7262" model="account.account.template">
+		<field name="code">7262</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Pessoal</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7271" model="account.account.template">
+		<field name="code">7271</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Órgãos sociais</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7272" model="account.account.template">
+		<field name="code">7272</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Pessoal</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7281" model="account.account.template">
+		<field name="code">7281</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Órgãos socias</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7282" model="account.account.template">
+		<field name="code">7282</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Pessoal</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7291" model="account.account.template">
+		<field name="code">7291</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Transferência para Resultados Operacionais</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7312" model="account.account.template">
+		<field name="code">7312</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">edifícios e outras construções</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7313" model="account.account.template">
+		<field name="code">7313</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Equipamento básico</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7314" model="account.account.template">
+		<field name="code">7314</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Equipamento de carga e transporte</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7315" model="account.account.template">
+		<field name="code">7315</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Equipamento administrativo</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7316" model="account.account.template">
+		<field name="code">7316</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Taras e vasilhame</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7319" model="account.account.template">
+		<field name="code">7319</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outras Imobilizações Corpóreas</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7321" model="account.account.template">
+		<field name="code">7321</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Trespasses</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7322" model="account.account.template">
+		<field name="code">7322</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Despesas de investigaçào e desenvolvimento</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7323" model="account.account.template">
+		<field name="code">7323</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Propriedade industrial e outros direitos e contratos</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7324" model="account.account.template">
+		<field name="code">7324</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Despesas de constituiçào</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7329" model="account.account.template">
+		<field name="code">7329</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outras Imobilizações Incorpóreas</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7391" model="account.account.template">
+		<field name="code">7391</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Transferência para Resultados Operacionais</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7511" model="account.account.template">
+		<field name="code">7511</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subcontratos</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75211" model="account.account.template">
+		<field name="code">75211</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Água</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75212" model="account.account.template">
+		<field name="code">75212</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Eletricidade</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75213" model="account.account.template">
+		<field name="code">75213</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Comsbutíveis e Outros Fluídos</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75214" model="account.account.template">
+		<field name="code">75214</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Conservação e Reparação</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75215" model="account.account.template">
+		<field name="code">75215</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Material de Protecção, Segurança e Conforto</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75216" model="account.account.template">
+		<field name="code">75216</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Ferramentas e Utensílios de Desgaste Rápido</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75217" model="account.account.template">
+		<field name="code">75217</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Material de Escritório</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75218" model="account.account.template">
+		<field name="code">75218</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Livros e Documentação Técnica</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_752191" model="account.account.template">
+		<field name="code">752191</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros fornecimentos</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75220" model="account.account.template">
+		<field name="code">75220</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Comunicações</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75221" model="account.account.template">
+		<field name="code">75221</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Rendas e alugueres</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75222" model="account.account.template">
+		<field name="code">75222</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Seguros</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75223" model="account.account.template">
+		<field name="code">75223</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Deslocações e Estadas</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75224" model="account.account.template">
+		<field name="code">75224</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Despesas de Representação</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75226" model="account.account.template">
+		<field name="code">75226</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Conservação e Reparação</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75227" model="account.account.template">
+		<field name="code">75227</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Vigilância e Segurança</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75228" model="account.account.template">
+		<field name="code">75228</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Limpeza, higiene e conforto</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75229" model="account.account.template">
+		<field name="code">75229</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Publicidade e propaganda</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75230" model="account.account.template">
+		<field name="code">75230</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Contencioso e notariado</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75231" model="account.account.template">
+		<field name="code">75231</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Comissões a Intermediários</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_752321" model="account.account.template">
+		<field name="code">752321</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Estrangeira</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_752322" model="account.account.template">
+		<field name="code">752322</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Nacional</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75233" model="account.account.template">
+		<field name="code">75233</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Trabalhos executados no exterior</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75234" model="account.account.template">
+		<field name="code">75234</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Honorários e Avenças</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75235" model="account.account.template">
+		<field name="code">75235</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Royalties</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_752391" model="account.account.template">
+		<field name="code">752391</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros Serviços</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75311" model="account.account.template">
+		<field name="code">75311</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Imposto de selo</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75319" model="account.account.template">
+		<field name="code">75319</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros Impostos</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75321" model="account.account.template">
+		<field name="code">75321</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Impostos de capitais</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75322" model="account.account.template">
+		<field name="code">75322</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Contribuição predial</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_75329" model="account.account.template">
+		<field name="code">75329</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros Impostos</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7541" model="account.account.template">
+		<field name="code">7541</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Despesas confidenciais</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7551" model="account.account.template">
+		<field name="code">7551</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Quotizações</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7561" model="account.account.template">
+		<field name="code">7561</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Ofertas e amostras de Existências</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7581" model="account.account.template">
+		<field name="code">7581</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros custos e Perdas Operacionais</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7591" model="account.account.template">
+		<field name="code">7591</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Transferência para Resultados Operacionais</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_76111" model="account.account.template">
+		<field name="code">76111</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Bancários</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_76112" model="account.account.template">
+		<field name="code">76112</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Obrigações</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_76113" model="account.account.template">
+		<field name="code">76113</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Títulos de Participação</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_76121" model="account.account.template">
+		<field name="code">76121</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">De descobertos Bancários</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_76131" model="account.account.template">
+		<field name="code">76131</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">De mora relativos a Dívidas a terceiros</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_76141" model="account.account.template">
+		<field name="code">76141</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">De desconto de Títulos</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7621" model="account.account.template">
+		<field name="code">7621</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Realizadas</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7622" model="account.account.template">
+		<field name="code">7622</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Não realizadas</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7631" model="account.account.template">
+		<field name="code">7631</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Descontos de pronto pagamento concedidos</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7641" model="account.account.template">
+		<field name="code">7641</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Amortizações de investimentos em Imóveis</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_76511" model="account.account.template">
+		<field name="code">76511</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subsidiárias</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_76512" model="account.account.template">
+		<field name="code">76512</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Associadas</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_76513" model="account.account.template">
+		<field name="code">76513</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outras Empresas</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_76514" model="account.account.template">
+		<field name="code">76514</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Fundos</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_76519" model="account.account.template">
+		<field name="code">76519</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros investimentos</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_76521" model="account.account.template">
+		<field name="code">76521</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Títulos Negociáveis</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_76522" model="account.account.template">
+		<field name="code">76522</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Depósitos a prazo</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_76523" model="account.account.template">
+		<field name="code">76523</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros Depósitos</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_76529" model="account.account.template">
+		<field name="code">76529</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_76611" model="account.account.template">
+		<field name="code">76611</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subsidiárias</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_76612" model="account.account.template">
+		<field name="code">76612</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Associadas</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_76613" model="account.account.template">
+		<field name="code">76613</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outras Empresas</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_76614" model="account.account.template">
+		<field name="code">76614</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Fundos</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_76619" model="account.account.template">
+		<field name="code">76619</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros investimentos</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_76621" model="account.account.template">
+		<field name="code">76621</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Aplicações de Títulos Negociáveis</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7671" model="account.account.template">
+		<field name="code">7671</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Serviços Bancários</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7691" model="account.account.template">
+		<field name="code">7691</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Serviços Bancários</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7791" model="account.account.template">
+		<field name="code">7791</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Transferência para Resultados financeiros</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_780111" model="account.account.template">
+		<field name="code">780111</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Matérias-primas, Subsidiárias e de Consumo</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_780112" model="account.account.template">
+		<field name="code">780112</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Produtos e trabalhos em curso</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_780113" model="account.account.template">
+		<field name="code">780113</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Produtos acabados e Intermédios</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_780114" model="account.account.template">
+		<field name="code">780114</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Subprodutos, Desperdícios, Resíduos e Refugos</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_780115" model="account.account.template">
+		<field name="code">780115</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Mercadorias</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_780121" model="account.account.template">
+		<field name="code">780121</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Clientes</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_780122" model="account.account.template">
+		<field name="code">780122</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Clientes-Títulos a receber</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_780123" model="account.account.template">
+		<field name="code">780123</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Clientes-Cobranças Duvidosa</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_780124" model="account.account.template">
+		<field name="code">780124</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Saldos devedores de fornecedores</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_780125" model="account.account.template">
+		<field name="code">780125</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Participantes e participadas</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_780126" model="account.account.template">
+		<field name="code">780126</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Dívidas do pessoal</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_780129" model="account.account.template">
+		<field name="code">780129</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros saldos a receber</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_780131" model="account.account.template">
+		<field name="code">780131</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Pensões</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_780132" model="account.account.template">
+		<field name="code">780132</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Processos judiciais em curso</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_780133" model="account.account.template">
+		<field name="code">780133</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Acidentes de trabalho</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_780134" model="account.account.template">
+		<field name="code">780134</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Garantias dadas a clientes</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_780139" model="account.account.template">
+		<field name="code">780139</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros riscos e encargos</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_78021" model="account.account.template">
+		<field name="code">78021</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Imobilizações Corpóreas</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_78022" model="account.account.template">
+		<field name="code">78022</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Imobilizações Incorpóreas</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_78031" model="account.account.template">
+		<field name="code">78031</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Vendas de Imobilizações Corpóreas</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_78032" model="account.account.template">
+		<field name="code">78032</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Vendas de Imobilizações Incorpóreas</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_78033" model="account.account.template">
+		<field name="code">78033</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Abates</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_78039" model="account.account.template">
+		<field name="code">78039</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outras</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_78041" model="account.account.template">
+		<field name="code">78041</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Quebras</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_78051" model="account.account.template">
+		<field name="code">78051</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Quebras</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_78061" model="account.account.template">
+		<field name="code">78061</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Fiscais</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_78062" model="account.account.template">
+		<field name="code">78062</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Não fiscais</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_78063" model="account.account.template">
+		<field name="code">78063</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Penalidades contratuais</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_78071" model="account.account.template">
+		<field name="code">78071</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Custos de Reestruturação</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_78081" model="account.account.template">
+		<field name="code">78081</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Descontinuidade de Operações</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_78091" model="account.account.template">
+		<field name="code">78091</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Alterações de Políticas Contabilísticas</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_78101" model="account.account.template">
+		<field name="code">78101</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Estimativa Impostos</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_78111" model="account.account.template">
+		<field name="code">78111</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Donativos</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_78112" model="account.account.template">
+		<field name="code">78112</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Reembolso de Subsídios à Exploração</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_78113" model="account.account.template">
+		<field name="code">78113</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Reembolso de Subsídios a investimentos</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_78191" model="account.account.template">
+		<field name="code">78191</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Transferência para Resultados não Operacionais</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7911" model="account.account.template">
+		<field name="code">7911</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Perdas resultantes de Catástrofes naturais</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7921" model="account.account.template">
+		<field name="code">7921</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Perdas resultantes de convulções politicas</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7931" model="account.account.template">
+		<field name="code">7931</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Perdas resultantes de Expropriações</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7941" model="account.account.template">
+		<field name="code">7941</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Perdas resultantes de sinistros</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_7991" model="account.account.template">
+		<field name="code">7991</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Transferência para Resultados Extraordinários</field>
+		<field name="user_type_id" ref="account.data_account_type_expenses"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8111" model="account.account.template">
+		<field name="code">8111</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Resultado do ano</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8112" model="account.account.template">
+		<field name="code">8112</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Aplicação de Resultados</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8113" model="account.account.template">
+		<field name="code">8113</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Correcções de erros fundamentais, no Exercício Seguinte</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8114" model="account.account.template">
+		<field name="code">8114</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Efeito das Alterações de Políticas Contabilísticas</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8115" model="account.account.template">
+		<field name="code">8115</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Imposto Relativo a Correcções de erros fundamentais e Alterações de Politicas Contabilísticas</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8121" model="account.account.template">
+		<field name="code">8121</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Resultado do ano</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8122" model="account.account.template">
+		<field name="code">8122</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Aplicação de Resultados</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8123" model="account.account.template">
+		<field name="code">8123</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Correcções de Erros Fundamentais, no Exercício seguinte</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8124" model="account.account.template">
+		<field name="code">8124</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Efeito das Alteracções de Políticas Contabilísticas</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8125" model="account.account.template">
+		<field name="code">8125</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Imposto Relativo a Correcções de Erros Fundamentais e Alterações de Políticas Contabilísticas</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8201" model="account.account.template">
+		<field name="code">8201</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Vendas</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8202" model="account.account.template">
+		<field name="code">8202</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Prestações de Serviços</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8203" model="account.account.template">
+		<field name="code">8203</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros proveitos Operacionais</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8204" model="account.account.template">
+		<field name="code">8204</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Variação nos inventários de produtos acabados e produtos em vias de fabrico</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8205" model="account.account.template">
+		<field name="code">8205</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Trabalho para própria Empresa</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8206" model="account.account.template">
+		<field name="code">8206</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Custo das mercadorias vendidas e das Matérias consumidas</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8207" model="account.account.template">
+		<field name="code">8207</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Custo com o pessoal</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8208" model="account.account.template">
+		<field name="code">8208</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Amortizações do Exercício</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8209" model="account.account.template">
+		<field name="code">8209</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Outros custos Operacionais</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8219" model="account.account.template">
+		<field name="code">8219</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Transferência para Resultados líquidos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8301" model="account.account.template">
+		<field name="code">8301</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Proveitos e Ganhos financeiros gerais</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8302" model="account.account.template">
+		<field name="code">8302</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Custos e Perdas financeiros gerais</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8309" model="account.account.template">
+		<field name="code">8309</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Transferência para Resultados líquidos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8401" model="account.account.template">
+		<field name="code">8401</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Proveitos e Ganhos em filiais e associadas</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8402" model="account.account.template">
+		<field name="code">8402</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Custos e Perdas em filiais e associadas</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8409" model="account.account.template">
+		<field name="code">8409</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Transferência para Resultados líquidos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8501" model="account.account.template">
+		<field name="code">8501</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Proveitos e Ganhos não Operacionais</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8502" model="account.account.template">
+		<field name="code">8502</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Custos e Perdas não Operacionais</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8509" model="account.account.template">
+		<field name="code">8509</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Transferência para Resultados líquidos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8601" model="account.account.template">
+		<field name="code">8601</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Proveitos e Ganhos Extraordinários</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8602" model="account.account.template">
+		<field name="code">8602</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Custos e Perdas Extraordinários</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8609" model="account.account.template">
+		<field name="code">8609</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Transferência para Resultados líquidos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8701" model="account.account.template">
+		<field name="code">8701</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Imposto sobre os Resultados correntes</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8702" model="account.account.template">
+		<field name="code">8702</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Imposto sobre os Resultados Extraordinários</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8709" model="account.account.template">
+		<field name="code">8709</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Transferência para Resultados líquidos</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8801" model="account.account.template">
+		<field name="code">8801</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Resultados Operacionais</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8802" model="account.account.template">
+		<field name="code">8802</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Resultados financeiros gerais</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8803" model="account.account.template">
+		<field name="code">8803</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Resultados em filiais e associadas</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8804" model="account.account.template">
+		<field name="code">8804</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Resultados não Operacionais</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8805" model="account.account.template">
+		<field name="code">8805</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Imposto sobre os Resultados correntes</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8806" model="account.account.template">
+		<field name="code">8806</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Resultados Extraordinários</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8807" model="account.account.template">
+		<field name="code">8807</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Imposto sobre Resultados Extraordinários</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8808" model="account.account.template">
+		<field name="code">8808</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Imposto sobre Rendimento</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8809" model="account.account.template">
+		<field name="code">8809</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Transferência para Resultados Transitados</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+		<record id="ao_8909" model="account.account.template">
+		<field name="code">8909</field>
+		<field name="reconcile" eval="False"/>
+		<field name="name">Transferência para Resultados Transitados</field>
+		<field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+		<field name="chart_template_id" ref="ao_chart_template"/>
+		</record>
+
+
+
+    </data>
+</odoo>
