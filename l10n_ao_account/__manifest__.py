@@ -26,6 +26,7 @@ This is the module to manage the accounting chart for Angola in Odoo.
         
     ],
     
+    'auto_install': ['account'],
     'module_type': 'official',
     'license': 'LGPL-3',
 }

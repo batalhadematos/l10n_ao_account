@@ -1,11 +1,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo import models, api, _
+from odoo import models, Command, fields, api, _
 from odoo.addons.account.models.chart_template import template
 
 
 class AccountChartTemplate(models.AbstractModel):
     _inherit = 'account.chart.template'
-    
     
     @template('ao')
     def _get_ao_template_data(self):
@@ -52,7 +51,7 @@ class AccountChartTemplate(models.AbstractModel):
     
     @api.model
     def _get_country_codes(self):
-        """ Only the country code should load the data set """
+        """ Load for Angolan COmpanies """
         return ["AO"]
     
     

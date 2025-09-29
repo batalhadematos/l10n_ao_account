@@ -34,7 +34,7 @@ class AccountTax(models.Model):
                                       ('INT', 'Taxa Intermédia'),
                                       ('ISE', 'Isento'), 
                                       ('OUT', 'Outro')], 
-                                     string="SAF-T Tax Code", default=False, copy=False)
+                                     string="SAF-T Tax Code",  default=False, copy=False)
     is_saft_included = fields.Boolean('Include in Saft Export', default=False, copy=False)
     saft_tax_description = fields.Char('SAF-T Description', copy=False)
     
