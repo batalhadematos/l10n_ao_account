@@ -1,44 +1,31 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
-
-# Copyright (C) 2019 Paulo Matos. All Rights Reserved
-# Paulo Matos - batalhadematos@gmail.com
-
 {
     'name': 'Angola - Accounting',
-    'version': '0.4',
+    'countries': ['ao'],
+    'version': '1.0.0',
     'author': 'Paulo Matos',
-    'website': 'batalhadematos@gmail.com',
-    'category': 'Localization',
+    'website': 'https://github.com/batalhadematos',
+    'category': 'Accounting/Localizations/Account Charts',
     'description': """
-    
-Angola Basic Chart of Accounts (PGCA)
-======================================
+This is the module to manage the accounting chart for Angola in Odoo.
+========================================================================
 
-Angolan basic charts for accounting and basic localization data.
-
-Includes:
-    - Move accounts;
-    - Provinces;
-    - Banks;
-    - Basic Tax setup (IVA);
+""",
     
-Install Instructions:
-- Refer to notes
+    'depends': [
+        'account',
+    ],
     
-    """,
-    
-    'depends': ['base',
-                'account',
-                ],
     'data': [
-           'data/l10n_ao_chart_data.xml',
-           'data/account_chart_template_data.xml',
-           'data/account_fiscal_position_template_data.xml',
-           'data/account_data.xml',
-           'data/account_tax_data.xml',
-           'data/account_chart_template_configure_data.xml',
-           'data/res_country_states.xml',
-           'data/res.bank.csv',
-           ],
+        'data/res_country_data.xml',
+        'views/account_account_view.xml',
+    ],
+    
+    'demo': [
+        
+    ],
+    
+    'module_type': 'official',
+    'license': 'LGPL-3',
 }

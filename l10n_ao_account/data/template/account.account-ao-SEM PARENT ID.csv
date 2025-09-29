@@ -1,0 +1,839 @@
+id,code,group_id,name,account_type,reconcile,name@ao
+ao_32121001,32121001,group_ao_32121,Fornecedores Gerais,liability_payable,True,Fornecedores Gerais
+ao_32121002,32121002,group_ao_32121,Fornecedor …..,liability_payable,True,Fornecedor …..
+ao_32121003,32121003,group_ao_32121,Fornecedor …..,liability_payable,True,Fornecedor …..
+ao_32121004,32121004,group_ao_32121,Fornecedor …..,liability_payable,True,Fornecedor …..
+ao_32121005,32121005,group_ao_32121,Fornecedor …..,liability_payable,True,Fornecedor …..
+ao_32122001,32122001,group_ao_32122,Fornecedores Gerais,liability_payable,True,Fornecedores Gerais
+ao_32122002,32122002,group_ao_32122,Fornecedor …..,liability_payable,True,Fornecedor …..
+ao_32122003,32122003,group_ao_32122,Fornecedor …..,liability_payable,True,Fornecedor …..
+ao_32122004,32122004,group_ao_32122,Fornecedor …..,liability_payable,True,Fornecedor …..
+ao_33211,33211,group_ao_3321,Entidade,liability_non_current,False,Entidade
+ao_33221,33221,group_ao_3322,Entidade,liability_non_current,False,Entidade
+ao_3331,3331,group_ao_333,Entidade,liability_non_current,False,Entidade
+ao_3391,3391,group_ao_339,Entidade,liability_non_current,False,Entidade
+ao_3211001,3211001,group_ao_3211,Subsidiárias,liability_current,False,Subsidiárias
+ao_3211002,3211002,group_ao_3211,Associadas,liability_current,False,Associadas
+ao_32211,32211,group_ao_3221,Subsidiárias,liability_current,False,Subsidiárias
+ao_32212,32212,group_ao_3221,Associadas,liability_current,False,Associadas
+ao_32221,32221,group_ao_3222,Nacionais,liability_current,False,Nacionais
+ao_32222,32222,group_ao_3222,Estrangeiros,liability_current,False,Estrangeiros
+ao_3281,3281,group_ao_328,Facturas em recepção e conferência,liability_current,False,Facturas em recepção e conferência
+ao_3291,3291,group_ao_329,Adiantamentos,liability_current,False,Adiantamentos
+ao_3292,3292,group_ao_329,Embalagens a devolver,liability_current,False,Embalagens a devolver
+ao_3293,3293,group_ao_329,Material a consignação,liability_current,False,Material a consignação
+ao_33111,33111,group_ao_3311,Banco .....,liability_current,False,Banco .....
+ao_33112,33112,group_ao_3311,Banco .....,liability_current,False,Banco .....
+ao_33121,33121,group_ao_3312,Banco .....,liability_current,False,Banco .....
+ao_33122,33122,group_ao_3312,Banco .....,liability_current,False,Banco .....
+ao_3411,3411,group_ao_341,IL- imposto corrente,liability_current,False,IL- imposto corrente
+ao_3412,3412,group_ao_341,IL- pagamentos por conta,liability_current,False,IL- pagamentos por conta
+ao_3413,3413,group_ao_341,IL- retenção na fonte,liability_current,False,IL- retenção na fonte
+ao_3414,3415,group_ao_341,IL - apuramento,liability_current,False,IL - apuramento
+ao_3415,3416,group_ao_341,IL - apagar,liability_current,False,IL - apagar
+ao_3416,3417,group_ao_341,IL - a recuperar,liability_current,False,IL - a recuperar
+ao_3421,3421,group_ao_342,........................................,liability_current,False,........................................
+ao_3431,3431,group_ao_343,Trabalhadores dependentes,liability_current,False,Trabalhadores dependentes
+ao_3432,3432,group_ao_343,Retenção Lei 7/97,liability_current,False,Retenção Lei 7/97
+ao_3441,3441,group_ao_344,........................................,liability_current,False,........................................
+ao_34511,34511,group_ao_3451,Existências,liability_current,False,Existências
+ao_34512,34512,group_ao_3451,Meios Fixos e Investimentos,liability_current,False,Meios Fixos e Investimentos
+ao_34513,34513,group_ao_3451,Outros Bens e Serviços,liability_current,False,Outros Bens e Serviços
+ao_34521111,34521111,group_ao_3452111,IVA - Ded. Exist. - M. Int. - 14%,liability_current,False,IVA - Ded. Exist. - M. Int. - 14%
+ao_34521112,34521112,group_ao_3452111,IVA - Ded. Exist. - M. Int. IVA Cativo - 14%,liability_current,False,IVA - Ded. Exist. - M. Int. IVA Cativo - 14%
+ao_34521121,34521121,group_ao_3452112,IVA - Ded. Exist. - M.Externo - 14%,liability_current,False,IVA - Ded. Exist. - M.Externo - 14%
+ao_34521211,34521211,group_ao_3452121,IVA - Ded. Exist. - M. Int. - 1%,liability_current,False,IVA - Ded. Exist. - M. Int. - 1%
+ao_34521311,34521311,group_ao_3452131,IVA - Ded. Exist. - M. Int. - 5%,liability_current,False,IVA - Ded. Exist. - M. Int. - 5%
+ao_34521411,34521411,group_ao_3452141,IVA - Ded. Exist. - M. Int. - 7%,liability_current,False,IVA - Ded. Exist. - M. Int. - 7%
+ao_34522111,34522111,group_ao_3452211,IVA - Ded. - Meios Fixos e Inv. - M. Int. - 14%,liability_current,False,IVA - Ded. - Meios Fixos e Inv. - M. Int. - 14%
+ao_34522112,34522112,group_ao_3452211,IVA - Ded. - Meios Fixos e Inv. - M. Int. - IVA Cativo - 14%,liability_current,False,IVA - Ded. - Meios Fixos e Inv. - M. Int. - IVA Cativo - 14%
+ao_34522121,34522121,group_ao_3452212,IVA - Ded. - Meios Fixos e Invest. - M. Externo - 14%,liability_current,False,IVA - Ded. - Meios Fixos e Invest. - M. Externo - 14%
+ao_34523111,34523111,group_ao_3452311,IVA - Ded. - Out. Bens - M. Int. - 14%,liability_current,False,IVA - Ded. - Out. Bens - M. Int. - 14%
+ao_34523112,34523112,group_ao_3452311,IVA - Ded. - Out. Bens - M. Int. - IVA Cativo  - 14%,liability_current,False,IVA - Ded. - Out. Bens - M. Int. - IVA Cativo  - 14%
+ao_34523121,34523121,group_ao_3452312,IVA - Ded. - Outros Bens - M. Externo - 14%,liability_current,False,IVA - Ded. - Outros Bens - M. Externo - 14%
+ao_34523211,34523211,group_ao_3452321,IVA - Ded. - Serviços - M. Interno - 14%,liability_current,False,IVA - Ded. - Serviços - M. Interno - 14%
+ao_34523212,34523212,group_ao_3452321,IVA - Ded. - Serviços - M. Interno - IVA Cativo - 14%,liability_current,False,IVA - Ded. - Serviços - M. Interno - IVA Cativo - 14%
+ao_3452391,3452391,group_ao_345239,IVA - Ded. - Serviços - Autoliquidação - 14% -,liability_current,False,IVA - Ded. - Serviços - Autoliquidação - 14% -
+ao_345311111,345311111,group_ao_34531111,IVA Liq. - Op. gerais - M. Int. - Vendas - 14%,liability_current,False,IVA Liq. - Op. gerais - M. Int. - Vendas - 14%
+ao_345311112,345311112,group_ao_34531111,IVA Liq. - Op. gerais - M. Int. - Vendas - IVA Cativo - 14%,liability_current,False,IVA Liq. - Op. gerais - M. Int. - Vendas - IVA Cativo - 14%
+ao_345311211,345311211,group_ao_34531121,IVA Liq. - Op. gerais - M. Int. - Vendas - 5%,liability_current,False,IVA Liq. - Op. gerais - M. Int. - Vendas - 5%
+ao_345311212,345311212,group_ao_34531121,IVA Liq. - Op. gerais - M. Int. - Vendas - IVA Cativo - 5%,liability_current,False,IVA Liq. - Op. gerais - M. Int. - Vendas - IVA Cativo - 5%
+ao_345311311,345311311,group_ao_34531131,IVA Liq. - Op. gerais - M. Int. - Vendas - 7%,liability_current,False,IVA Liq. - Op. gerais - M. Int. - Vendas - 7%
+ao_345311312,345311312,group_ao_34531131,IVA Liq. - Op. gerais - M. Int. - Vendas - IVA Cativo - 7%,liability_current,False,IVA Liq. - Op. gerais - M. Int. - Vendas - IVA Cativo - 7%
+ao_345311411,345311411,group_ao_34531141,IVA Liq. - Op. gerais - M. Int. - Vendas - 1%,liability_current,False,IVA Liq. - Op. gerais - M. Int. - Vendas - 1%
+ao_345311412,345311412,group_ao_34531141,IVA Liq. - Op. gerais - M. Int. - Vendas - IVA Cativo - 1%,liability_current,False,IVA Liq. - Op. gerais - M. Int. - Vendas - IVA Cativo - 1%
+ao_345312111,345312111,group_ao_34531211,IVA Liq. - Op. gerais - M.Int. - Prest. Serv. - 14%,liability_current,False,IVA Liq. - Op. gerais - M.Int. - Prest. Serv. - 14%
+ao_345312112,345312112,group_ao_34531211,IVA Liq. - Op. gerais - M. Int. - Prest. Serv. - 14% - IVA Cativo,liability_current,False,IVA Liq. - Op. gerais - M. Int. - Prest. Serv. - 14% - IVA Cativo
+ao_345313111,345313111,group_ao_34531311,IVA Liq. - Op. gerais - Adiant.  - 14% - M. Int.,liability_current,False,IVA Liq. - Op. gerais - Adiant.  - 14% - M. Int.
+ao_345313112,345313112,group_ao_34531311,IVA Liq. - Op. gerais - Adiant. - 14% - M. Int. IVA Cativo,liability_current,False,IVA Liq. - Op. gerais - Adiant. - 14% - M. Int. IVA Cativo
+ao_34531911,34531911,group_ao_3453191,IVA Liq. - Op. gerais - Autoliq.- Serv.-14%,liability_current,False,IVA Liq. - Op. gerais - Autoliq.- Serv.-14%
+ao_34532111,34532111,group_ao_3453211,IVA Liq. - Regime de IVA de Caixa - M. Interno 14%,liability_current,False,IVA Liq. - Regime de IVA de Caixa - M. Interno 14%
+ao_34533111,34533111,group_ao_3453311,IVA Liq. - AutoCon. Op. Grat. - M. Interno - 14%,liability_current,False,IVA Liq. - AutoCon. Op. Grat. - M. Interno - 14%
+ao_34534111,34534111,group_ao_3453411,IVA Liq. - Op. Esp. - M.Interno - 14%,liability_current,False,IVA Liq. - Op. Esp. - M.Interno - 14%
+ao_345411101,345411101,group_ao_34541110,IVA Reg. Suj. Passivo -Op.Gerais-Venda-Isentas - Mercado Interno,liability_current,False,IVA Reg. Suj. Passivo -Op.Gerais-Venda-Isentas - Mercado Interno
+ao_345411111,345411111,group_ao_34541111,IVA Reg. Suj. Passivo.-Op.Gerais-Vendas - M. Interno,liability_current,False,IVA Reg. Suj. Passivo.-Op.Gerais-Vendas - M. Interno
+ao_345411211,345411211,group_ao_34541121,IVA Reg. Suj. Passivo.-Op.Gerais-Prest.Serv. - 14%- M.Int.,liability_current,False,IVA Reg. Suj. Passivo.-Op.Gerais-Prest.Serv. - 14%- M.Int.
+ao_34542101,34542101,group_ao_3454210,IVA Reg. Mensais favor do Est. -Existencias-Isentas-Mercado interno,liability_current,False,IVA Reg. Mensais favor do Est. -Existencias-Isentas-Mercado interno
+ao_34542111,34542111,group_ao_3454211,IVA Reg. Mensais favor do Est.-Existencias - 14% - M. Int.,liability_current,False,IVA Reg. Mensais favor do Est.-Existencias - 14% - M. Int.
+ao_34542201,34542201,group_ao_3454220,IVA Reg. Mensais Est.-Meios Fixos e Invest. - Isentas - M.interno,liability_current,False,IVA Reg. Mensais Est.-Meios Fixos e Invest. - Isentas - M.interno
+ao_34542211,34542211,group_ao_3454221,IVA Reg. Mensais Est.-Meios Fixos e Investimentos - 14% - M.int.,liability_current,False,IVA Reg. Mensais Est.-Meios Fixos e Investimentos - 14% - M.int.
+ao_34542301,34542301,group_ao_3454230,IVA Reg. Est.-Outros bens e serviços-Isentas-M.int,liability_current,False,IVA Reg. Est.-Outros bens e serviços-Isentas-M.int
+ao_34542311,34542311,group_ao_3454231,IVA Reg. Est.-Outros bens e serviços-M.interno-14%,liability_current,False,IVA Reg. Est.-Outros bens e serviços-M.interno-14%
+ao_34543,34543,group_ao_3454,Anual por cálculo do pró rata definitivo,liability_current,False,Anual por cálculo do pró rata definitivo
+ao_34544,34544,group_ao_3454,Outras regularizações anuais,liability_current,False,Outras regularizações anuais
+ao_34551,34551,group_ao_3455,Apuramento do regime de IVA normal,liability_current,False,Apuramento do regime de IVA normal
+ao_34552,34552,group_ao_3455,Apuramento do regime de IVA de caixa,liability_current,False,Apuramento do regime de IVA de caixa
+ao_34561,34561,group_ao_3456,IVA a pagar de apuramento,liability_current,False,IVA a pagar de apuramento
+ao_34562,34562,group_ao_3456,IVA a pagar de cativo,liability_current,False,IVA a pagar de cativo
+ao_34563,34563,group_ao_3456,IVA a pagar de liquidações oficiosas,liability_current,False,IVA a pagar de liquidações oficiosas
+ao_34581,34581,group_ao_3458,Reembolsos pedidos,liability_current,False,Reembolsos pedidos
+ao_34582,34582,group_ao_3458,Reembolsos deferidos,liability_current,False,Reembolsos deferidos
+ao_34583,34583,group_ao_3458,Reembolsos indeferidos,liability_current,False,Reembolsos indeferidos
+ao_34584,34584,group_ao_3458,"Reembolsos reclamados, recorridos ou impugnados",liability_current,False,"Reembolsos reclamados, recorridos ou impugnados"
+ao_34591,34591,group_ao_3459,IVA Liquidações Oficiosas,liability_current,False,IVA Liquidações Oficiosas
+ao_3461,3461,group_ao_346,....................................,liability_current,False,....................................
+ao_3471,3471,group_ao_347,Imposto de selo,liability_current,False,Imposto de selo
+ao_3481,3481,group_ao_348,........................................,liability_current,False,........................................
+ao_3491,3491,group_ao_349,Outros impostos,liability_current,False,Outros impostos
+ao_34921,34921,group_ao_3492,INSS conta do trabalhador 3%,liability_current,False,INSS conta do trabalhador 3%
+ao_34922,34922,group_ao_3492,INSS conta da empresa 8%,liability_current,False,INSS conta da empresa 8%
+ao_36111,36111,group_ao_3611,Remunerações orgãos sociais,liability_current,False,Remunerações orgãos sociais
+ao_36121,36121,group_ao_3612,Remunerações pessoal,liability_current,False,Remunerações pessoal
+ao_36211,36211,group_ao_3621,........................................,liability_current,False,........................................
+ao_36221,36221,group_ao_3622,........................................,liability_current,False,........................................
+ao_371111,371111,group_ao_37111,Nacionais,liability_current,False,Nacionais
+ao_371112,371112,group_ao_37111,Estrangeiros,liability_current,False,Estrangeiros
+ao_371211,371211,group_ao_37121,Nacionais,liability_current,False,Nacionais
+ao_371212,371212,group_ao_37121,Estrangeiros,liability_current,False,Estrangeiros
+ao_371311,371311,group_ao_37131,Nacionais,liability_current,False,Nacionais
+ao_371312,371312,group_ao_37131,Estrangeiros,liability_current,False,Estrangeiros
+ao_3751,3751,group_ao_375,Remunerações,liability_current,False,Remunerações
+ao_3752,3752,group_ao_375,Juros,liability_current,False,Juros
+ao_3753,3753,group_ao_375,Encargos c/ Imp. Selo s/ Vendas,liability_current,False,Encargos c/ Imp. Selo s/ Vendas
+ao_3761,3761,group_ao_376,Prémios de emissão de obrigações,liability_current,False,Prémios de emissão de obrigações
+ao_3762,3762,group_ao_376,Prémios de emissão de títulos de participação,liability_current,False,Prémios de emissão de títulos de participação
+ao_3763,3763,group_ao_376,Subsídios para investimento,liability_current,False,Subsídios para investimento
+ao_3764,3764,group_ao_376,Diferenças de câmbio favoráveis reversíveis,liability_current,False,Diferenças de câmbio favoráveis reversíveis
+ao_3771,3771,group_ao_377,Transacções entre a sede e as dependências da empresa,liability_current,False,Transacções entre a sede e as dependências da empresa
+ao_3791,3791,group_ao_379,Outros devedores,liability_current,False,Outros devedores
+ao_3792,3792,group_ao_379,Outros credores,liability_current,False,Outros credores
+ao_38111,38111,group_ao_3811,Grupo,liability_current,False,Grupo
+ao_38112,38112,group_ao_3811,Não grupo,liability_current,False,Não grupo
+ao_38121,38121,group_ao_3812,Grupo,liability_current,False,Grupo
+ao_38122,38122,group_ao_3812,Não grupo,liability_current,False,Não grupo
+ao_38131,38131,group_ao_3813,Grupo,liability_current,False,Grupo
+ao_38132,38132,group_ao_3813,Não grupo,liability_current,False,Não grupo
+ao_3821,3821,group_ao_382,........................................,liability_current,False,........................................
+ao_3831,3831,group_ao_383,Participantes,liability_current,False,Participantes
+ao_3832,3832,group_ao_383,Participadas,liability_current,False,Participadas
+ao_3841,3841,group_ao_384,Provisões p/ dívidas do pessoal,liability_current,False,Provisões p/ dívidas do pessoal
+ao_3891,3891,group_ao_389,Vendas imobilizado,liability_current,False,Vendas imobilizado
+ao_3911,3911,group_ao_391,Provisões para pensões,liability_current,False,Provisões para pensões
+ao_3921,3921,group_ao_392,Provisões para processos judiciais em curso,liability_current,False,Provisões para processos judiciais em curso
+ao_3931,3931,group_ao_393,Provisões para acidentes de trabalho,liability_current,False,Provisões para acidentes de trabalho
+ao_3941,3941,group_ao_394,Provisões para garantias dadas a clientes,liability_current,False,Provisões para garantias dadas a clientes
+ao_3991,3991,group_ao_399,Provisões para outros riscos e encargos,liability_current,False,Provisões para outros riscos e encargos
+ao_8111,8111,group_ao_811,Resultado do ano,liability_current,False,Resultado do ano
+ao_8112,8112,group_ao_811,Aplicação de resultados,liability_current,False,Aplicação de resultados
+ao_8113,8113,group_ao_811,"Correcções de erros fundamentais, no exercício seguinte",liability_current,False,"Correcções de erros fundamentais, no exercício seguinte"
+ao_8114,8114,group_ao_811,Efeito das alterações de políticas contabilísticas,liability_current,False,Efeito das alterações de políticas contabilísticas
+ao_8115,8115,group_ao_811,Imposto Relativo a correcções de erros fundamentais e alterações de politicas contabilísticas,liability_current,False,Imposto Relativo a correcções de erros fundamentais e alterações de politicas contabilísticas
+ao_8121,8121,group_ao_812,Resultado do ano,liability_current,False,Resultado do ano
+ao_8122,8122,group_ao_812,Aplicação de resultados,liability_current,False,Aplicação de resultados
+ao_8123,8123,group_ao_812,"Correcções de erros fundamentais, no exercício seguinte",liability_current,False,"Correcções de erros fundamentais, no exercício seguinte"
+ao_8124,8124,group_ao_812,Efeito das alterações de políticas contabilísticas,liability_current,False,Efeito das alterações de políticas contabilísticas
+ao_8125,8125,group_ao_812,Imposto Relativo a correcções de erros fundamentais e alterações de políticas contabilísticas,liability_current,False,Imposto Relativo a correcções de erros fundamentais e alterações de políticas contabilísticas
+ao_8201,8201,group_ao_82,Vendas,liability_current,False,Vendas
+ao_8202,8202,group_ao_82,Prestações de serviços,liability_current,False,Prestações de serviços
+ao_8203,8203,group_ao_82,Outros proveitos Operacionais,liability_current,False,Outros proveitos Operacionais
+ao_8204,8204,group_ao_82,Variação nos inventários de produtos acabados e produtos em vias de fabrico,liability_current,False,Variação nos inventários de produtos acabados e produtos em vias de fabrico
+ao_8205,8205,group_ao_82,Trabalho para própria empresa,liability_current,False,Trabalho para própria empresa
+ao_8206,8206,group_ao_82,Custo das mercadorias vendidas e das matérias consumidas,liability_current,False,Custo das mercadorias vendidas e das matérias consumidas
+ao_8207,8207,group_ao_82,Custo com o pessoal,liability_current,False,Custo com o pessoal
+ao_8208,8208,group_ao_82,Amortizações do exercício,liability_current,False,Amortizações do exercício
+ao_8209,8209,group_ao_82,Outros custos operacionais,liability_current,False,Outros custos operacionais
+ao_8219,8219,group_ao_82,Transferência para resultados líquidos,liability_current,False,Transferência para resultados líquidos
+ao_8301,8301,group_ao_83,Proveitos e ganhos financeiros gerais,liability_current,False,Proveitos e ganhos financeiros gerais
+ao_8302,8302,group_ao_83,Custos e perdas financeiros gerais,liability_current,False,Custos e perdas financeiros gerais
+ao_8309,8309,group_ao_83,Transferência para resultados líquidos,liability_current,False,Transferência para resultados líquidos
+ao_8401,8401,group_ao_84,Proveitos e ganhos em filiais e associadas,liability_current,False,Proveitos e ganhos em filiais e associadas
+ao_8402,8402,group_ao_84,Custos e perdas em filiais e associadas,liability_current,False,Custos e perdas em filiais e associadas
+ao_8409,8409,group_ao_84,Transferência para resultados líquidos,liability_current,False,Transferência para resultados líquidos
+ao_8501,8501,group_ao_85,Proveitos e ganhos não Operacionais,liability_current,False,Proveitos e ganhos não Operacionais
+ao_8502,8502,group_ao_85,Custos e perdas não operacionais,liability_current,False,Custos e perdas não operacionais
+ao_8509,8509,group_ao_85,Transferência para resultados líquidos,liability_current,False,Transferência para resultados líquidos
+ao_8601,8601,group_ao_86,Proveitos e ganhos extraordinários,liability_current,False,Proveitos e ganhos extraordinários
+ao_8602,8602,group_ao_86,Custos e perdas extraordinários,liability_current,False,Custos e perdas extraordinários
+ao_8609,8609,group_ao_86,Transferência para resultados líquidos,liability_current,False,Transferência para resultados líquidos
+ao_8701,8701,group_ao_87,Imposto sobre os resultados correntes,liability_current,False,Imposto sobre os resultados correntes
+ao_8702,8702,group_ao_87,Imposto sobre os resultados extraordinários,liability_current,False,Imposto sobre os resultados extraordinários
+ao_8709,8709,group_ao_87,Transferência para resultados líquidos,liability_current,False,Transferência para resultados líquidos
+ao_8801,8801,group_ao_88,Resultados operacionais,liability_current,False,Resultados operacionais
+ao_8802,8802,group_ao_88,Resultados financeiros gerais,liability_current,False,Resultados financeiros gerais
+ao_8803,8803,group_ao_88,Resultados em filiais e associadas,liability_current,False,Resultados em filiais e associadas
+ao_8804,8804,group_ao_88,Resultados não operacionais,liability_current,False,Resultados não operacionais
+ao_8805,8805,group_ao_88,Imposto sobre os resultados correntes,liability_current,False,Imposto sobre os resultados correntes
+ao_8806,8806,group_ao_88,Resultados extraordinários,liability_current,False,Resultados extraordinários
+ao_8807,8807,group_ao_88,Imposto sobre resultados extraordinários,liability_current,False,Imposto sobre resultados extraordinários
+ao_8808,8808,group_ao_88,Imposto sobre rendimento,liability_current,False,Imposto sobre rendimento
+ao_8809,8809,group_ao_88,Transferência para resultados transitados,liability_current,False,Transferência para resultados transitados
+ao_8909,8909,group_ao_89,Transferência para resultados transitados,liability_current,False,Transferência para resultados transitados
+ao_6383,6383,group_ao_638,Ganhos de diferenças de arredondamento,income_other,False,Ganhos de diferenças de arredondamento
+ao_911,911,group_ao_9,Abertura - Conta de Débito,income_other,False,Abertura - Conta de Débito
+ao_6111,6111,group_ao_611,Mercado nacional,income,False,Mercado nacional
+ao_61121,61121,group_ao_6112,Mercado africano,income,False,Mercado africano
+ao_61122,61122,group_ao_6112,Outros mercados,income,False,Outros mercados
+ao_6121,6121,group_ao_612,Mercado nacional,income,False,Mercado nacional
+ao_61221,61221,group_ao_6122,Mercado africano,income,False,Mercado africano
+ao_61222,61222,group_ao_6122,Outros mercados,income,False,Outros mercados
+ao_6131,6131,group_ao_613,Mercado nacional,income,False,Mercado nacional
+ao_61321,61321,group_ao_6132,Mercado africano,income,False,Mercado africano
+ao_61322,61322,group_ao_6132,Outros mercados,income,False,Outros mercados
+ao_6141,6141,group_ao_614,Mercado nacional,income,False,Mercado nacional
+ao_61421,61421,group_ao_6142,Mercado africano,income,False,Mercado africano
+ao_61422,61422,group_ao_6142,Outros mercados,income,False,Outros mercados
+ao_6151,6151,group_ao_615,Produtos acabados e intermédios,income,False,Produtos acabados e intermédios
+ao_6153,6153,group_ao_615,Mercadorias,income,False,Mercadorias
+ao_6154,6154,group_ao_615,Matérias Primas - CMPVC,income,False,Matérias Primas - CMPVC
+ao_6155,6155,group_ao_615,Matérias Subsidiárias - CMPVC,income,False,Matérias Subsidiárias - CMPVC
+ao_6156,6156,group_ao_615,Materiais Diversos - CMPVC,income,False,Materiais Diversos - CMPVC
+ao_6157,6157,group_ao_615,Embalagens de Consumo - CMPVC,income,False,Embalagens de Consumo - CMPVC
+ao_61711,61711,group_ao_6171,Produtos acabados e intermedios,income,False,Produtos acabados e intermedios
+ao_61712,61712,group_ao_6171,"Sub-produtos, desp., res. e refugos",income,False,"Sub-produtos, desp., res. e refugos"
+ao_61713,61713,group_ao_6171,Mercadorias,income,False,Mercadorias
+ao_61714,61714,group_ao_6171,Embalagens de consumo,income,False,Embalagens de consumo
+ao_617211,617211,group_ao_61721,Produtos acabados e intermedios,income,False,Produtos acabados e intermedios
+ao_617212,617212,group_ao_61721,"Sub-produtos, desp., res. e refugos",income,False,"Sub-produtos, desp., res. e refugos"
+ao_617213,617213,group_ao_61721,Mercadorias,income,False,Mercadorias
+ao_617214,617214,group_ao_61721,Embalagens de consumo,income,False,Embalagens de consumo
+ao_617221,617221,group_ao_61722,Produtos acabados e intermedios,income,False,Produtos acabados e intermedios
+ao_617222,617222,group_ao_61722,"Sub-produtos, desp., res. e refugos",income,False,"Sub-produtos, desp., res. e refugos"
+ao_617223,617223,group_ao_61722,Mercadorias,income,False,Mercadorias
+ao_617224,617224,group_ao_61722,Embalagens de consumo,income,False,Embalagens de consumo
+ao_61811,61811,group_ao_6181,Produtos acabados e intermedios,income,False,Produtos acabados e intermedios
+ao_61812,61812,group_ao_6181,"Sub-produtos, desp., res. e refugos",income,False,"Sub-produtos, desp., res. e refugos"
+ao_61813,61813,group_ao_6181,Mercadorias,income,False,Mercadorias
+ao_61814,61814,group_ao_6181,Embalagens de consumo,income,False,Embalagens de consumo
+ao_618211,618211,group_ao_61821,Produtos acabados e intermedios,income,False,Produtos acabados e intermedios
+ao_618212,618212,group_ao_61821,"Sub-produtos, desp., res. e refugos",income,False,"Sub-produtos, desp., res. e refugos"
+ao_618213,618213,group_ao_61821,Mercadorias,income,False,Mercadorias
+ao_618214,618214,group_ao_61821,Embalagens de consumo,income,False,Embalagens de consumo
+ao_618221,618221,group_ao_61822,Produtos acabados e intermedios,income,False,Produtos acabados e intermedios
+ao_618222,618222,group_ao_61822,"Sub-produtos, desp., res. e refugos",income,False,"Sub-produtos, desp., res. e refugos"
+ao_618223,618223,group_ao_61822,Mercadorias,income,False,Mercadorias
+ao_618224,618224,group_ao_61822,Embalagens de consumo,income,False,Embalagens de consumo
+ao_619,619,group_ao_61,Transferência para resultados operacionais,income,False,Transferência para resultados operacionais
+ao_62111,62111,group_ao_6211,Serviço .....,income,False,Serviço .....
+ao_62121,62121,group_ao_6212,Mercado africano,income,False,Mercado africano
+ao_62122,62122,group_ao_6212,Outros mercados,income,False,Outros mercados
+ao_6221,6221,group_ao_622,Mercado nacional,income,False,Mercado nacional
+ao_62221,62221,group_ao_6222,Mercado africano,income,False,Mercado africano
+ao_62222,62222,group_ao_6222,Outros mercados,income,False,Outros mercados
+ao_6281,6281,group_ao_628,Mercado nacional,income,False,Mercado nacional
+ao_62821,62821,group_ao_6282,Mercado africano,income,False,Mercado africano
+ao_62822,62822,group_ao_6282,Outros mercados,income,False,Outros mercados
+ao_629,629,group_ao_62,Transferência para resultados operacionais,income,False,Transferência para resultados operacionais
+ao_6311,6311,group_ao_631,Aluguer de equipamento,income,False,Aluguer de equipamento
+ao_6312,6312,group_ao_631,Cedência de pessoal,income,False,Cedência de pessoal
+ao_6313,6313,group_ao_631,Cedência de energia,income,False,Cedência de energia
+ao_6314,6314,group_ao_631,"Estudos, projectos e assistência técnica",income,False,"Estudos, projectos e assistência técnica"
+ao_6321,6321,group_ao_632,Royalties,income,False,Royalties
+ao_6331,6331,group_ao_633,Subsídios a exploração,income,False,Subsídios a exploração
+ao_6341,6341,group_ao_634,Subsídios a investimentos,income,False,Subsídios a investimentos
+ao_6381,6381,group_ao_638,Outros Proveitos e ganhos operacionais,income,False,Outros Proveitos e ganhos operacionais
+ao_6382,6382,group_ao_638,Ganhos de diferenças de caixa,income,False,Ganhos de diferenças de caixa
+ao_639,639,group_ao_63,Transferência para resultados operacionais,income,False,Transferência para resultados operacionais
+ao_6411,6411,group_ao_641,Produtos e trabalhos em curso,income,False,Produtos e trabalhos em curso
+ao_6421,6421,group_ao_642,Produtos acabados,income,False,Produtos acabados
+ao_6431,6431,group_ao_643,Produtos intermédios,income,False,Produtos intermédios
+ao_644,644,group_ao_64,Prémios p/ Pensões,income,False,Prémios p/ Pensões
+ao_645,645,group_ao_64,Encargos sobre Remunerações,income,False,Encargos sobre Remunerações
+ao_646,646,group_ao_64,Seg. Acid. Trab. e Doenças Prof.,income,False,Seg. Acid. Trab. e Doenças Prof.
+ao_647,647,group_ao_64,Custos de Acção Social,income,False,Custos de Acção Social
+ao_648,648,group_ao_64,Outros Custos c/ Pessoal,income,False,Outros Custos c/ Pessoal
+ao_649,649,group_ao_64,Transferência para resultados operacionais,income,False,Transferência para resultados operacionais
+ao_6511,6511,group_ao_651,Corpóreo,income,False,Corpóreo
+ao_6512,6512,group_ao_651,Incorpóreo,income,False,Incorpóreo
+ao_6513,6513,group_ao_651,Financeiro,income,False,Financeiro
+ao_6514,6514,group_ao_651,Em curso,income,False,Em curso
+ao_6521,6521,group_ao_652,Para encargos a repartir por exercícios futuros,income,False,Para encargos a repartir por exercícios futuros
+ao_659,659,group_ao_65,Transferência para resultados operacionais,income,False,Transferência para resultados operacionais
+ao_66111,66111,group_ao_6611,Obrigações,income,False,Obrigações
+ao_66113,66113,group_ao_6611,Títulos de participação,income,False,Títulos de participação
+ao_66114,66114,group_ao_6611,Empréstimos,income,False,Empréstimos
+ao_66119,66119,group_ao_6611,Outros,income,False,Outros
+ao_66121,66121,group_ao_6612,Dívidas recebidas a prestações,income,False,Dívidas recebidas a prestações
+ao_66122,66122,group_ao_6612,De Empréstimos a terceiros,income,False,De Empréstimos a terceiros
+ao_6614,6614,group_ao_6612,De Aplicações de tesouraria,income,False,De Aplicações de tesouraria
+ao_6615,6615,group_ao_6612,Descontos de títulos,income,False,Descontos de títulos
+ao_6621,6621,group_ao_662,Realizadas,income,False,Realizadas
+ao_6622,6622,group_ao_662,Não realizadas,income,False,Não realizadas
+ao_6631,6631,group_ao_663,Descontos de pronto pagamento obtidos,income,False,Descontos de pronto pagamento obtidos
+ao_6641,6641,group_ao_664,Rendimentos de investimentos em Imóveis,income,False,Rendimentos de investimentos em Imóveis
+ao_6651,6651,group_ao_665,Acções/quotas em outras empresas,income,False,Acções/quotas em outras empresas
+ao_6652,6652,group_ao_665,Acções/quotas incluídas nos fundos,income,False,Acções/quotas incluídas nos fundos
+ao_6653,6653,group_ao_665,Acções/quotas incluídas nos títulos negociáveis,income,False,Acções/quotas incluídas nos títulos negociáveis
+ao_66611,66611,group_ao_6661,Subsidiárias,income,False,Subsidiárias
+ao_66612,66612,group_ao_6661,Associadas,income,False,Associadas
+ao_66613,66613,group_ao_6661,Outras Empresas,income,False,Outras Empresas
+ao_66614,66614,group_ao_6661,Imóveis,income,False,Imóveis
+ao_66615,66615,group_ao_6661,Fundos,income,False,Fundos
+ao_66619,66619,group_ao_6661,Outros investimentos,income,False,Outros investimentos
+ao_66621,66621,group_ao_6662,Títulos negociáveis,income,False,Títulos negociáveis
+ao_66711,66711,group_ao_6671,Subsidiárias,income,False,Subsidiárias
+ao_66712,66712,group_ao_6671,Associadas,income,False,Associadas
+ao_66713,66713,group_ao_6671,Outras empresas,income,False,Outras empresas
+ao_66714,66714,group_ao_6671,Fundos,income,False,Fundos
+ao_66719,66719,group_ao_6671,Outros investimentos,income,False,Outros investimentos
+ao_66721,66721,group_ao_6672,Títulos negociáveis,income,False,Títulos negociáveis
+ao_66722,66722,group_ao_6672,Depósitos a prazo,income,False,Depósitos a prazo
+ao_66723,66723,group_ao_6672,Outros depósitos,income,False,Outros depósitos
+ao_66729,66729,group_ao_6672,Outros investimentos,income,False,Outros investimentos
+ao_669,669,group_ao_66,Transferência para resultados ...,income,False,Transferência para resultados ...
+ao_6711,6711,group_ao_671,Subsidiárias,income,False,Subsidiárias
+ao_6712,6712,group_ao_671,Associadas,income,False,Associadas
+ao_679,679,group_ao_67,Transferência para resultados em filiais e associadas,income,False,Transferência para resultados em filiais e associadas
+ao_680111,680111,group_ao_68011,"Matérias-primas, subsidiárias e de consumo",income,False,"Matérias-primas, subsidiárias e de consumo"
+ao_680112,680112,group_ao_68011,Produtos e trabalhos em curso,income,False,Produtos e trabalhos em curso
+ao_680113,680113,group_ao_68011,Produtos acabados e intermédios,income,False,Produtos acabados e intermédios
+ao_680114,680114,group_ao_68011,"Subprodutos, desperdícios resíduos e refugos",income,False,"Subprodutos, desperdícios resíduos e refugos"
+ao_680115,680115,group_ao_68011,Mercadorias,income,False,Mercadorias
+ao_680121,680121,group_ao_68012,Clientes,income,False,Clientes
+ao_680122,680122,group_ao_68012,Clientes - títulos a receber,income,False,Clientes - títulos a receber
+ao_680123,680123,group_ao_68012,Clientes - cobranças duvidosas,income,False,Clientes - cobranças duvidosas
+ao_680124,680124,group_ao_68012,Saldos devedores de fornecedores,income,False,Saldos devedores de fornecedores
+ao_680125,680125,group_ao_68012,Participantes e participadas,income,False,Participantes e participadas
+ao_680126,680126,group_ao_68012,Dívidas do pessoal,income,False,Dívidas do pessoal
+ao_680129,680129,group_ao_68012,Outros saldos a receber,income,False,Outros saldos a receber
+ao_680131,680131,group_ao_68013,Pensões,income,False,Pensões
+ao_680132,680132,group_ao_68013,Processos judiciais em curso,income,False,Processos judiciais em curso
+ao_680133,680133,group_ao_68013,Acidentes de trabalho,income,False,Acidentes de trabalho
+ao_680134,680134,group_ao_68013,Garantias dadas a clientes,income,False,Garantias dadas a clientes
+ao_680139,680139,group_ao_68013,Outros riscos e encargos,income,False,Outros riscos e encargos
+ao_68021,68021,group_ao_6802,Imobilizações corpóreas,income,False,Imobilizações corpóreas
+ao_68022,68022,group_ao_6802,Imobilizações incorpóreas,income,False,Imobilizações incorpóreas
+ao_68031,68031,group_ao_6803,Venda de Imobilizações corpóreas,income,False,Venda de Imobilizações corpóreas
+ao_68032,68032,group_ao_6803,Venda de Imobilizações incorpóreas,income,False,Venda de Imobilizações incorpóreas
+ao_68041,68041,group_ao_6804,Sobras,income,False,Sobras
+ao_68051,68051,group_ao_6805,Recuperação de dívidas,income,False,Recuperação de dívidas
+ao_68061,68061,group_ao_6806,Benefícios de penalidades contratuais,income,False,Benefícios de penalidades contratuais
+ao_68081,68081,group_ao_6808,Descontinuidade de operações,income,False,Descontinuidade de operações
+ao_68091,68091,group_ao_6809,Alterações de políticas contabilísticas,income,False,Alterações de políticas contabilísticas
+ao_68101,68101,group_ao_6810,Estimativa impostos,income,False,Estimativa impostos
+ao_68102,68102,group_ao_6810,Restituição de impostos,income,False,Restituição de impostos
+ao_68111,68111,group_ao_6811,Donativos,income,False,Donativos
+ao_6819,6819,group_ao_68,Transferência para resultados não operacionais,income,False,Transferência para resultados não operacionais
+ao_6911,6911,group_ao_691,Ganhos resultantes de catástrofes naturais,income,False,Ganhos resultantes de catástrofes naturais
+ao_6921,6921,group_ao_692,Ganhos resultantes de convulsões políticas,income,False,Ganhos resultantes de convulsões políticas
+ao_6931,6931,group_ao_693,Ganhos resultantes de expropriações,income,False,Ganhos resultantes de expropriações
+ao_6941,6941,group_ao_694,Ganhos resultantes de sinistros,income,False,Ganhos resultantes de sinistros
+ao_6951,6951,group_ao_695,Subsídios,income,False,Subsídios
+ao_6961,6961,group_ao_696,Anulação de passivos não exigíveis,income,False,Anulação de passivos não exigíveis
+ao_699,699,group_ao_69,Transferência para resultados extraordinários,income,False,Transferência para resultados extraordinários
+ao_7312,7312,group_ao_731,Edifícios e outras construções,expense_depreciation,False,Edifícios e outras construções
+ao_7313,7313,group_ao_731,Equipamento básico,expense_depreciation,False,Equipamento básico
+ao_7314,7314,group_ao_731,Equipamento de carga e transporte,expense_depreciation,False,Equipamento de carga e transporte
+ao_7315,7315,group_ao_731,Equipamento administrativo,expense_depreciation,False,Equipamento administrativo
+ao_7316,7316,group_ao_731,Taras e vasilhame,expense_depreciation,False,Taras e vasilhame
+ao_7319,7319,group_ao_731,Outras imobilizações corpóreas,expense_depreciation,False,Outras imobilizações corpóreas
+ao_7321,7321,group_ao_732,Trespasses,expense_depreciation,False,Trespasses
+ao_7322,7322,group_ao_732,Despesas de investigaçao e desenvolvimento,expense_depreciation,False,Despesas de investigaçao e desenvolvimento
+ao_7323,7323,group_ao_732,Propriedade industrial e outros direitos e contratos,expense_depreciation,False,Propriedade industrial e outros direitos e contratos
+ao_7324,7324,group_ao_732,Despesas de constituição,expense_depreciation,False,Despesas de constituição
+ao_7329,7329,group_ao_732,Outras imobilizações incorpóreas,expense_depreciation,False,Outras imobilizações incorpóreas
+ao_7111,7111,group_ao_711,Mp - cevc,expense,False,Mp - cevc
+ao_7121,7121,group_ao_712,Ms - cevc,expense,False,Ms - cevc
+ao_7131,7131,group_ao_713,Md - cevc,expense,False,Md - cevc
+ao_7141,7141,group_ao_714,Ec - cevc,expense,False,Ec - cevc
+ao_7151,7151,group_ao_715,Om - cevc,expense,False,Om - cevc
+ao_719,719,group_ao_71,Transferência para resultados operacionais,expense,False,Transferência para resultados operacionais
+ao_7211,7211,group_ao_721,Ordenados,expense,False,Ordenados
+ao_7212,7212,group_ao_721,........................................,expense,False,........................................
+ao_7213,7213,group_ao_721,Subsídio de férias,expense,False,Subsídio de férias
+ao_7214,7214,group_ao_721,Subsídio de natal,expense,False,Subsídio de natal
+ao_7215,7215,group_ao_721,Subsídio de alimentação,expense,False,Subsídio de alimentação
+ao_7216,7216,group_ao_721,Subsídio de transporte,expense,False,Subsídio de transporte
+ao_7217,7217,group_ao_721,Horas extra / prémios,expense,False,Horas extra / prémios
+ao_7218,7218,group_ao_721,Outros,expense,False,Outros
+ao_72211,72211,group_ao_7221,Ordenados,expense,False,Ordenados
+ao_72212,72212,group_ao_7221,........................................,expense,False,........................................
+ao_72213,72213,group_ao_7221,Subsídio de férias,expense,False,Subsídio de férias
+ao_72214,72214,group_ao_7221,Subsídio de natal,expense,False,Subsídio de natal
+ao_72215,72215,group_ao_7221,Subsídio de alimentação,expense,False,Subsídio de alimentação
+ao_72216,72216,group_ao_7221,Subsídio de transporte,expense,False,Subsídio de transporte
+ao_72217,72217,group_ao_7221,Horas extra / prémios,expense,False,Horas extra / prémios
+ao_72218,72218,group_ao_7221,Outros,expense,False,Outros
+ao_72221,72221,group_ao_7222,Ordenados,expense,False,Ordenados
+ao_72222,72222,group_ao_7222,........................................,expense,False,........................................
+ao_72223,72223,group_ao_7222,Subsídio de férias,expense,False,Subsídio de férias
+ao_72224,72224,group_ao_7222,Subsídio de natal,expense,False,Subsídio de natal
+ao_72225,72225,group_ao_7222,Subsídio de alimentação,expense,False,Subsídio de alimentação
+ao_72226,72226,group_ao_7222,Subsídio de transporte,expense,False,Subsídio de transporte
+ao_72227,72227,group_ao_7222,Horas extra / prémios,expense,False,Horas extra / prémios
+ao_72228,72228,group_ao_7222,Outros,expense,False,Outros
+ao_7231,7231,group_ao_723,Orgãos sociais,expense,False,Orgãos sociais
+ao_72321,72321,group_ao_7232,Administrativo/outros,expense,False,Administrativo/outros
+ao_72322,72322,group_ao_7232,Produção,expense,False,Produção
+ao_7241,7241,group_ao_724,Orgãos sociais,expense,False,Orgãos sociais
+ao_72421,72421,group_ao_7242,Administrativo/outros,expense,False,Administrativo/outros
+ao_72422,72422,group_ao_7242,Produção,expense,False,Produção
+ao_72511,72511,group_ao_7251,Orgãos sociais,expense,False,Orgãos sociais
+ao_72521,72521,group_ao_7252,Administrativo/outros,expense,False,Administrativo/outros
+ao_72522,72522,group_ao_7252,Produção,expense,False,Produção
+ao_7261,7261,group_ao_726,Órgãos sociais,expense,False,Órgãos sociais
+ao_72621,72621,group_ao_7262,Administrativo/outros,expense,False,Administrativo/outros
+ao_72622,72622,group_ao_7262,Produção,expense,False,Produção
+ao_7271,7271,group_ao_727,Órgãos sociais,expense,False,Órgãos sociais
+ao_72721,72721,group_ao_7272,Administrativo/outros,expense,False,Administrativo/outros
+ao_72722,72722,group_ao_7272,Produção,expense,False,Produção
+ao_72811,72811,group_ao_7281,Ajudas de custo,expense,False,Ajudas de custo
+ao_728211,728211,group_ao_72821,Indminizações por despedimento,expense,False,Indminizações por despedimento
+ao_728212,728212,group_ao_72821,Ajudas de custo,expense,False,Ajudas de custo
+ao_728221,728221,group_ao_72822,Indminizações por despedimento,expense,False,Indminizações por despedimento
+ao_728222,728222,group_ao_72822,Ajudas de custo,expense,False,Ajudas de custo
+ao_729,729,group_ao_72,Transferência para resultados operacionais,expense,False,Transferência para resultados operacionais
+ao_739,739,group_ao_73,Transferência para resultados operacionais,expense,False,Transferência para resultados operacionais
+ao_7511,7511,group_ao_751,Sc-Nacionais,expense,False,Sc-Nacionais
+ao_75121,75121,group_ao_7512,Sc-Mercado Africano,expense,False,Sc-Mercado Africano
+ao_75122,75122,group_ao_7512,Sc-Outros Mercados,expense,False,Sc-Outros Mercados
+ao_75211,75211,group_ao_752,Água,expense,False,Água
+ao_75212,75212,group_ao_752,Eletricidade,expense,False,Eletricidade
+ao_752131,752131,group_ao_75213,Gasóleo,expense,False,Gasóleo
+ao_752132,752132,group_ao_75213,Gasolina,expense,False,Gasolina
+ao_752133,752133,group_ao_75213,Gás,expense,False,Gás
+ao_752134,752134,group_ao_75213,Lubrificantes,expense,False,Lubrificantes
+ao_752141,752141,group_ao_75214,Edifícios e outras construções,expense,False,Edifícios e outras construções
+ao_752142,752142,group_ao_75214,Equipamento básico,expense,False,Equipamento básico
+ao_752143,752143,group_ao_75214,Equipamento de carga e transporte,expense,False,Equipamento de carga e transporte
+ao_752144,752144,group_ao_75214,Equipamento administrativo,expense,False,Equipamento administrativo
+ao_752145,752145,group_ao_75214,Outras,expense,False,Outras
+ao_75215,75215,group_ao_752,"Material de protecção, segurança e conforto",expense,False,"Material de protecção, segurança e conforto"
+ao_75216,75216,group_ao_752,Ferramentas e utensílios de desgaste rápido,expense,False,Ferramentas e utensílios de desgaste rápido
+ao_75217,75217,group_ao_752,Material de escritório,expense,False,Material de escritório
+ao_75218,75218,group_ao_752,Livros e documentação técnica,expense,False,Livros e documentação técnica
+ao_752191,752191,group_ao_75219,........................................,expense,False,........................................
+ao_75220,75220,group_ao_752,Comunicações,expense,False,Comunicações
+ao_752211,752211,group_ao_75221,Rendas de imóveis,expense,False,Rendas de imóveis
+ao_752221,752221,group_ao_75222,Ramo,expense,False,Ramo
+ao_752222,752222,group_ao_75222,Ramo,expense,False,Ramo
+ao_752223,752223,group_ao_75222,Ramo,expense,False,Ramo
+ao_752224,752224,group_ao_75222,Ramo viaturas,expense,False,Ramo viaturas
+ao_75223,75223,group_ao_752,Deslocações e estadas,expense,False,Deslocações e estadas
+ao_75224,75224,group_ao_752,Despesas de representação,expense,False,Despesas de representação
+ao_752261,752261,group_ao_75226,Edifícios e outras construções,expense,False,Edifícios e outras construções
+ao_752262,752262,group_ao_75226,Equipamento básico,expense,False,Equipamento básico
+ao_752263,752263,group_ao_75226,Equipamento de carga e transporte,expense,False,Equipamento de carga e transporte
+ao_752264,752264,group_ao_75226,Equipamento administrativo,expense,False,Equipamento administrativo
+ao_752265,752265,group_ao_75226,Outras,expense,False,Outras
+ao_75227,75227,group_ao_752,Vigilância e segurança,expense,False,Vigilância e segurança
+ao_75228,75228,group_ao_752,"Limpeza, higiene e conforto",expense,False,"Limpeza, higiene e conforto"
+ao_75229,75229,group_ao_752,Publicidade e propaganda,expense,False,Publicidade e propaganda
+ao_75230,75230,group_ao_752,Contencioso e notariado,expense,False,Contencioso e notariado
+ao_752311,752311,group_ao_75231,Ci-Nacionais,expense,False,Ci-Nacionais
+ao_7523121,7523121,group_ao_752312,Ci-Mercado Africano,expense,False,Ci-Mercado Africano
+ao_7523122,7523122,group_ao_752312,Ci-Outros mercados,expense,False,Ci-Outros mercados
+ao_752321,752321,group_ao_75232,Nacionais,expense,False,Nacionais
+ao_7523221,7523221,group_ao_752322,Mercado africano,expense,False,Mercado africano
+ao_7523222,7523222,group_ao_752322,Outros mercados,expense,False,Outros mercados
+ao_752331,752331,group_ao_75233,Serviços informaticos,expense,False,Serviços informaticos
+ao_752332,752332,group_ao_75233,Analises laboratoriais,expense,False,Analises laboratoriais
+ao_752341,752341,group_ao_75234,Trab. independentes nacionais,expense,False,Trab. independentes nacionais
+ao_752342,752342,group_ao_75234,Trab. independentes estrangeiros,expense,False,Trab. independentes estrangeiros
+ao_75235,75235,group_ao_752,Royalties,expense,False,Royalties
+ao_752391,752391,group_ao_75239,Outros serviços,expense,False,Outros serviços
+ao_75311,75311,group_ao_7531,Imposto de selo,expense,False,Imposto de selo
+ao_75312,75312,group_ao_7531,Imposto sobre o Valor Acrescentado,expense,False,Imposto sobre o Valor Acrescentado
+ao_75318,75318,group_ao_7531,Taxas e emolumentos,expense,False,Taxas e emolumentos
+ao_75319,75319,group_ao_7531,Outros impostos,expense,False,Outros impostos
+ao_75321,75321,group_ao_7532,Impostos de capitais,expense,False,Impostos de capitais
+ao_75322,75322,group_ao_7532,Contribuição predial,expense,False,Contribuição predial
+ao_753291,753291,group_ao_75329,Outros Impostos,expense,False,Outros Impostos
+ao_753292,753292,group_ao_75329,Impostos não aceites fiscalmente,expense,False,Impostos não aceites fiscalmente
+ao_7541,7541,group_ao_754,Despesas confidenciais,expense,False,Despesas confidenciais
+ao_7551,7551,group_ao_755,Quotizações,expense,False,Quotizações
+ao_7561,7561,group_ao_756,Ofertas e amostras de existências,expense,False,Ofertas e amostras de existências
+ao_757011,757011,group_ao_75701,Edifício e outras Contruções,expense,False,Edifício e outras Contruções
+ao_757012,757012,group_ao_75701,Equipamento Básico,expense,False,Equipamento Básico
+ao_757013,757013,group_ao_75701,Equipamento de Carga e Transporte,expense,False,Equipamento de Carga e Transporte
+ao_757014,757014,group_ao_75701,Outros,expense,False,Outros
+ao_75702,75702,group_ao_757,"Material de Protecção, segurança e conforto",expense,False,"Material de Protecção, segurança e conforto"
+ao_75703,75703,group_ao_757,Ferramentas e utencílios de desgaste rápido,expense,False,Ferramentas e utencílios de desgaste rápido
+ao_75704,75704,group_ao_757,Material de Escritório,expense,False,Material de Escritório
+ao_75705,75705,group_ao_757,Comunicação,expense,False,Comunicação
+ao_75706,75706,group_ao_757,Rendas e alugueres,expense,False,Rendas e alugueres
+ao_75707,75707,group_ao_757,Deslocação e estadas,expense,False,Deslocação e estadas
+ao_75708,75708,group_ao_757,Despesas de representação,expense,False,Despesas de representação
+ao_757101,757101,group_ao_757,"Limpeza, Higiene e conforto",expense,False,"Limpeza, Higiene e conforto"
+ao_757102,757102,group_ao_757,Publicidade e Propaganda,expense,False,Publicidade e Propaganda
+ao_757901,757901,group_ao_75709,Edifício e outras Contruções,expense,False,Edifício e outras Contruções
+ao_757902,757902,group_ao_75709,Equipamento Básico,expense,False,Equipamento Básico
+ao_757903,757903,group_ao_75709,Equipamento de Carga e Transporte,expense,False,Equipamento de Carga e Transporte
+ao_757904,757904,group_ao_75709,Outros,expense,False,Outros
+ao_7581,7581,group_ao_758,Outros Custos e perdas operacionais,expense,False,Outros Custos e perdas operacionais
+ao_7582,7582,group_ao_758,Perdas de diferenças de caixa,expense,False,Perdas de diferenças de caixa
+ao_7583,7583,group_ao_758,Perdas de diferenças de arredondamento,expense,False,Perdas de diferenças de arredondamento
+ao_759,759,group_ao_75,Transferência para resultados operacionais,expense,False,Transferência para resultados operacionais
+ao_76111,76111,group_ao_7611,Bancários,expense,False,Bancários
+ao_76112,76112,group_ao_7611,Obrigações,expense,False,Obrigações
+ao_76113,76113,group_ao_7611,Títulos de participação,expense,False,Títulos de participação
+ao_76121,76121,group_ao_7611,De descobertos bancários,expense,False,De descobertos bancários
+ao_76131,76131,group_ao_7611,De mora relativos a dívidas a terceiros,expense,False,De mora relativos a dívidas a terceiros
+ao_76141,76141,group_ao_7611,De desconto de títulos,expense,False,De desconto de títulos
+ao_7621,7621,group_ao_762,Realizadas,expense,False,Realizadas
+ao_7622,7622,group_ao_762,Não realizadas,expense,False,Não realizadas
+ao_7631,7631,group_ao_763,Descontos a clientes,expense,False,Descontos a clientes
+ao_7641,7641,group_ao_764,Amortizações de investimentos em imóveis,expense,False,Amortizações de investimentos em imóveis
+ao_76511,76511,group_ao_7651,Subsidiárias,expense,False,Subsidiárias
+ao_76512,76512,group_ao_7651,Associadas,expense,False,Associadas
+ao_76513,76513,group_ao_7651,Outras empresas,expense,False,Outras empresas
+ao_76514,76514,group_ao_7651,Fundos,expense,False,Fundos
+ao_76519,76519,group_ao_7651,Outros investimentos,expense,False,Outros investimentos
+ao_76521,76521,group_ao_7652,Títulos negociáveis,expense,False,Títulos negociáveis
+ao_76522,76522,group_ao_7652,Depósitos a prazo,expense,False,Depósitos a prazo
+ao_76523,76523,group_ao_7652,Outros depósitos,expense,False,Outros depósitos
+ao_76529,76529,group_ao_7652,Outros,expense,False,Outros
+ao_76611,76611,group_ao_7661,Subsidiárias,expense,False,Subsidiárias
+ao_76612,76612,group_ao_7661,Associadas,expense,False,Associadas
+ao_76613,76613,group_ao_7661,Outras empresas,expense,False,Outras empresas
+ao_76614,76614,group_ao_7661,Fundos,expense,False,Fundos
+ao_76619,76619,group_ao_7661,Outros investimentos,expense,False,Outros investimentos
+ao_76621,76621,group_ao_7661,Aplicações de títulos negociáveis,expense,False,Aplicações de títulos negociáveis
+ao_7671,7671,group_ao_767,Sb - livros bancarios,expense,False,Sb - livros bancarios
+ao_7672,7672,group_ao_767,Sb - importação e exportação,expense,False,Sb - importação e exportação
+ao_7673,7673,group_ao_767,Sb - outros,expense,False,Sb - outros
+ao_769,769,group_ao_76,Transferência para resultados financeiros,expense,False,Transferência para resultados financeiros
+ao_771,771,group_ao_77,Outros Custos em Filiais,expense,False,Outros Custos em Filiais
+ao_779,779,group_ao_77,Transferência para resultados financeiros,expense,False,Transferência para resultados financeiros
+ao_780111,780111,group_ao_78011,"Matérias-primas, subsidiárias e de consumo",expense,False,"Matérias-primas, subsidiárias e de consumo"
+ao_780112,780112,group_ao_78011,Produtos e trabalhos em curso,expense,False,Produtos e trabalhos em curso
+ao_780113,780113,group_ao_78011,Produtos acabados e intermédios,expense,False,Produtos acabados e intermédios
+ao_780114,780114,group_ao_78011,"Subprodutos, desperdícios, resíduos e refugos",expense,False,"Subprodutos, desperdícios, resíduos e refugos"
+ao_780115,780115,group_ao_78011,Mercadorias,expense,False,Mercadorias
+ao_780121,780121,group_ao_78012,Clientes,expense,False,Clientes
+ao_780122,780122,group_ao_78012,Clientes - títulos a receber,expense,False,Clientes - títulos a receber
+ao_780123,780123,group_ao_78012,Clientes - cobranças duvidosa,expense,False,Clientes - cobranças duvidosa
+ao_780124,780124,group_ao_78012,Saldos devedores de fornecedores,expense,False,Saldos devedores de fornecedores
+ao_780125,780125,group_ao_78012,Participantes e participadas,expense,False,Participantes e participadas
+ao_780126,780126,group_ao_78012,Dívidas do pessoal,expense,False,Dívidas do pessoal
+ao_780129,780129,group_ao_78012,Outros saldos a receber,expense,False,Outros saldos a receber
+ao_780131,780131,group_ao_78013,Pensões,expense,False,Pensões
+ao_780132,780132,group_ao_78013,Processos judiciais em curso,expense,False,Processos judiciais em curso
+ao_780133,780133,group_ao_78013,Acidentes de trabalho,expense,False,Acidentes de trabalho
+ao_780134,780134,group_ao_78013,Garantias dadas a clientes,expense,False,Garantias dadas a clientes
+ao_780139,780139,group_ao_78013,Outros riscos e encargos,expense,False,Outros riscos e encargos
+ao_78021,78021,group_ao_7802,Imobilizações corpóreas,expense,False,Imobilizações corpóreas
+ao_78022,78022,group_ao_7802,Imobilizações incorpóreas,expense,False,Imobilizações incorpóreas
+ao_78031,78031,group_ao_7803,Vendas de imobilizações corpóreas,expense,False,Vendas de imobilizações corpóreas
+ao_78032,78032,group_ao_7803,Vendas de imobilizações incorpóreas,expense,False,Vendas de imobilizações incorpóreas
+ao_78033,78033,group_ao_7803,Abates,expense,False,Abates
+ao_78039,78039,group_ao_7803,Outras,expense,False,Outras
+ao_78041,78041,group_ao_7804,Quebras,expense,False,Quebras
+ao_78051,78051,group_ao_7805,Dívidas incobráveis,expense,False,Dívidas incobráveis
+ao_78061,78061,group_ao_7806,Fiscais,expense,False,Fiscais
+ao_78062,78062,group_ao_7806,Não fiscais,expense,False,Não fiscais
+ao_78063,78063,group_ao_7806,Penalidades contratuais,expense,False,Penalidades contratuais
+ao_78071,78071,group_ao_7807,Custos de reestruturação,expense,False,Custos de reestruturação
+ao_78081,78081,group_ao_7808,Descontinuidade de operações,expense,False,Descontinuidade de operações
+ao_78091,78091,group_ao_7809,Alterações de políticas contabilísticas,expense,False,Alterações de políticas contabilísticas
+ao_78101,78101,group_ao_7810,Estimativa impostos,expense,False,Estimativa impostos
+ao_78111,78111,group_ao_7811,Donativos,expense,False,Donativos
+ao_78112,78112,group_ao_7811,Reembolso de subsídios a exploração,expense,False,Reembolso de subsídios a exploração
+ao_78113,78113,group_ao_7811,Reembolso de subsídios a investimentos,expense,False,Reembolso de subsídios a investimentos
+ao_7819,7819,group_ao_78,Transferência para resultados não operacionais,expense,False,Transferência para resultados não operacionais
+ao_7911,7911,group_ao_791,Perdas resultantes de catástrofes naturais,expense,False,Perdas resultantes de catástrofes naturais
+ao_7921,7921,group_ao_792,Perdas resultantes de convulções politicas,expense,False,Perdas resultantes de convulções politicas
+ao_7931,7931,group_ao_793,Perdas resultantes de expropriações,expense,False,Perdas resultantes de expropriações
+ao_7941,7941,group_ao_794,Perdas resultantes de sinistros,expense,False,Perdas resultantes de sinistros
+ao_799,799,group_ao_79,Transferência para resultados extraordinários,expense,False,Transferência para resultados extraordinários
+ao_922,922,group_ao_9,Abertura - Conta de Crédito,expense,False,Abertura - Conta de Crédito
+ao_91,91,group_ao_9,Lucros e prejuízos não distribuídos,equity_unaffected,False,Lucros e prejuízos não distribuídos
+ao_511,511,group_ao_51,Capital social,equity,False,Capital social
+ao_5211,5211,group_ao_521,Valor nominal,equity,False,Valor nominal
+ao_5221,5221,group_ao_522,Descontos,equity,False,Descontos
+ao_5231,5231,group_ao_523,Prémios,equity,False,Prémios
+ao_531,531,group_ao_53,Prémios de emissão,equity,False,Prémios de emissão
+ao_541,541,group_ao_54,Prestações suplementares,equity,False,Prestações suplementares
+ao_551,551,group_ao_55,Reservas legais,equity,False,Reservas legais
+ao_5611,5611,group_ao_561,Decreto-lei Nº,equity,False,Decreto-lei Nº
+ao_5612,5612,group_ao_561,Decreto-lei Nº,equity,False,Decreto-lei Nº
+ao_5621,5621,group_ao_562,Avaliação,equity,False,Avaliação
+ao_5622,5622,group_ao_562,Realização,equity,False,Realização
+ao_571,571,group_ao_57,Reservas com fins especiais,equity,False,Reservas com fins especiais
+ao_572,572,group_ao_57,Reservas estatutárias,equity,False,Reservas estatutárias
+ao_580,581,group_ao_58,Reservas livres,equity,False,Reservas livres
+ao_31121001,31121001,group_ao_31121,Clientes Gerais,asset_receivable,True,Clientes Gerais
+ao_31121002,31121002,group_ao_31121,Cliente …..,asset_receivable,True,Cliente …..
+ao_31121003,31121003,group_ao_31121,Cliente …..,asset_receivable,True,Cliente …..
+ao_31121004,31121004,group_ao_31121,Cliente …..,asset_receivable,True,Cliente …..
+ao_31121005,31121005,group_ao_31121,Cliente …..,asset_receivable,True,Cliente …..
+ao_31122001,31122001,group_ao_31122,Clientes Gerais,asset_receivable,True,Clientes Gerais
+ao_31122002,31122002,group_ao_31122,Cliente …..,asset_receivable,True,Cliente …..
+ao_31122003,31122003,group_ao_31122,Cliente …..,asset_receivable,True,Cliente …..
+ao_31122004,31122004,group_ao_31122,Cliente …..,asset_receivable,True,Cliente …..
+ao_1111,1111,group_ao_111,Terrenos em bruto,asset_non_current,False,Terrenos em bruto
+ao_1112,1112,group_ao_111,Terrenos com arranjos,asset_non_current,False,Terrenos com arranjos
+ao_1113,1113,group_ao_111,Subsolo,asset_non_current,False,Subsolo
+ao_11141,11141,group_ao_111,Relativos a edifícios industriais,asset_non_current,False,Relativos a edifícios industriais
+ao_11142,11142,group_ao_111,Relativos a edifícios administrativos e comerciais,asset_non_current,False,Relativos a edifícios administrativos e comerciais
+ao_11143,11143,group_ao_111,Relativos a outros edifícios,asset_non_current,False,Relativos a outros edifícios
+ao_11211,11211,group_ao_111,Integrados em conjuntos industriais,asset_non_current,False,Integrados em conjuntos industriais
+ao_11212,11212,group_ao_111,Integrados em conjuntos administrativos e comerciais,asset_non_current,False,Integrados em conjuntos administrativos e comerciais
+ao_11213,11213,group_ao_111,Outros conjuntos industriais,asset_non_current,False,Outros conjuntos industriais
+ao_11214,11214,group_ao_111,Implantados em propriedade alheia,asset_non_current,False,Implantados em propriedade alheia
+ao_1122,1122,group_ao_112,Outras construções,asset_non_current,False,Outras construções
+ao_1123,1123,group_ao_112,Instalações,asset_non_current,False,Instalações
+ao_1131,1131,group_ao_113,Material industrial,asset_non_current,False,Material industrial
+ao_1132,1132,group_ao_113,Ferramentas industriais,asset_non_current,False,Ferramentas industriais
+ao_1133,1133,group_ao_113,Melhoramentos em equipamentos básicos,asset_non_current,False,Melhoramentos em equipamentos básicos
+ao_1141,1141,group_ao_114,Veículos pesados,asset_non_current,False,Veículos pesados
+ao_1142,1142,group_ao_114,Veículos mistos e ligeiros,asset_non_current,False,Veículos mistos e ligeiros
+ao_1151,1151,group_ao_115,Equipamento informátido,asset_non_current,False,Equipamento informátido
+ao_1152,1152,group_ao_115,Equipamento social,asset_non_current,False,Equipamento social
+ao_1153,1153,group_ao_115,Mobiliário,asset_non_current,False,Mobiliário
+ao_1161,1161,group_ao_116,Embalagens retornáveis,asset_non_current,False,Embalagens retornáveis
+ao_1162,1162,group_ao_116,Outras Taras e vasilhames,asset_non_current,False,Outras Taras e vasilhames
+ao_1191,1191,group_ao_119,Obras em edifícios alheios,asset_non_current,False,Obras em edifícios alheios
+ao_1201,1201,group_ao_12,Banco...,asset_non_current,False,Banco...
+ao_1211,1211,group_ao_121,Trespasses...,asset_non_current,False,Trespasses...
+ao_1221,1221,group_ao_122,Despesas de investigação e desenvolvimento,asset_non_current,False,Despesas de investigação e desenvolvimento
+ao_1231,1231,group_ao_123,Propriedade industrial e outros direitos e contratos,asset_non_current,False,Propriedade industrial e outros direitos e contratos
+ao_1241,1241,group_ao_124,Despesas de constituição,asset_non_current,False,Despesas de constituição
+ao_1291,1291,group_ao_129,Outras imobilizações incorpóreas,asset_non_current,False,Outras imobilizações incorpóreas
+ao_1311,1311,group_ao_131,Partes de capital,asset_non_current,False,Partes de capital
+ao_1312,1312,group_ao_131,Obrigações e títulos de participação,asset_non_current,False,Obrigações e títulos de participação
+ao_1313,1313,group_ao_131,Empréstimos,asset_non_current,False,Empréstimos
+ao_1321,1321,group_ao_132,Partes de capital,asset_non_current,False,Partes de capital
+ao_1322,1322,group_ao_132,Obrigações e títulos de participação,asset_non_current,False,Obrigações e títulos de participação
+ao_1323,1323,group_ao_132,Empréstimos,asset_non_current,False,Empréstimos
+ao_1331,1331,group_ao_133,Partes de capital,asset_non_current,False,Partes de capital
+ao_1332,1332,group_ao_133,Obrigações e títulos de participação,asset_non_current,False,Obrigações e títulos de participação
+ao_1333,1333,group_ao_133,Empréstimos,asset_non_current,False,Empréstimos
+ao_1341,1341,group_ao_134,Investimentos em imóveis,asset_non_current,False,Investimentos em imóveis
+ao_1351,1351,group_ao_135,Fundos,asset_non_current,False,Fundos
+ao_1391,1391,group_ao_139,Diamantes,asset_non_current,False,Diamantes
+ao_1392,1392,group_ao_139,Ouro,asset_non_current,False,Ouro
+ao_1393,1393,group_ao_139,Depósitos bancários,asset_non_current,False,Depósitos bancários
+ao_1411,1411,group_ao_141,Obra...,asset_non_current,False,Obra...
+ao_1421,1421,group_ao_142,Obra...,asset_non_current,False,Obra...
+ao_1471,1471,group_ao_147,........................................,asset_non_current,False,........................................
+ao_1481,1481,group_ao_148,........................................,asset_non_current,False,........................................
+ao_1491,1491,group_ao_149,........................................,asset_non_current,False,........................................
+ao_1811,1811,group_ao_181,Terrenos e recursos naturais,asset_non_current,False,Terrenos e recursos naturais
+ao_1812,1812,group_ao_181,Edifícios e outras construções,asset_non_current,False,Edifícios e outras construções
+ao_1813,1813,group_ao_181,Equipamento básico,asset_non_current,False,Equipamento básico
+ao_1814,1814,group_ao_181,Equipamento de carga e transporte,asset_non_current,False,Equipamento de carga e transporte
+ao_1815,1815,group_ao_181,Equipamento administrativo,asset_non_current,False,Equipamento administrativo
+ao_1816,1816,group_ao_181,Taras e vasilhame,asset_non_current,False,Taras e vasilhame
+ao_1819,1819,group_ao_181,Outras imobilizações corpóreas,asset_non_current,False,Outras imobilizações corpóreas
+ao_1821,1821,group_ao_182,Trespasses,asset_non_current,False,Trespasses
+ao_1822,1822,group_ao_182,Despesas de investigação e desenvolvimento,asset_non_current,False,Despesas de investigação e desenvolvimento
+ao_1823,1823,group_ao_182,Propriedade industrial e outros direitos e contratos,asset_non_current,False,Propriedade industrial e outros direitos e contratos
+ao_1824,1824,group_ao_182,Despesas de constituiçao,asset_non_current,False,Despesas de constituiçao
+ao_1829,1829,group_ao_182,Outras imobilizações incorpóreas,asset_non_current,False,Outras imobilizações incorpóreas
+ao_1831,1831,group_ao_183,Terrenos e recursos naturais,asset_non_current,False,Terrenos e recursos naturais
+ao_1832,1832,group_ao_183,Edifícios e outras construções,asset_non_current,False,Edifícios e outras construções
+ao_1911,1911,group_ao_191,Partes de capital,asset_non_current,False,Partes de capital
+ao_1912,1912,group_ao_191,Obrigações e títulos de participação,asset_non_current,False,Obrigações e títulos de participação
+ao_1913,1913,group_ao_191,Empréstimos,asset_non_current,False,Empréstimos
+ao_1921,1921,group_ao_192,Partes de capital,asset_non_current,False,Partes de capital
+ao_1922,1922,group_ao_192,Obrigações e títulos de participação,asset_non_current,False,Obrigações e títulos de participação
+ao_1923,1923,group_ao_192,Empréstimos,asset_non_current,False,Empréstimos
+ao_1931,1931,group_ao_193,Partes de capital,asset_non_current,False,Partes de capital
+ao_1932,1932,group_ao_193,Obrigações e títulos de participação,asset_non_current,False,Obrigações e títulos de participação
+ao_1933,1933,group_ao_193,Empréstimos,asset_non_current,False,Empréstimos
+ao_1941,1941,group_ao_194,Partes de capital,asset_non_current,False,Partes de capital
+ao_1991,1991,group_ao_199,Diamantes,asset_non_current,False,Diamantes
+ao_1992,1992,group_ao_199,Ouro,asset_non_current,False,Ouro
+ao_1993,1993,group_ao_199,Depósitos Bancários,asset_non_current,False,Depósitos Bancários
+ao_31211,31211,group_ao_3121,Subsidiárias,asset_non_current,False,Subsidiárias
+ao_31212,31212,group_ao_3121,Associadas,asset_non_current,False,Associadas
+ao_31311,31311,group_ao_3131,Subsidiárias,asset_non_current,False,Subsidiárias
+ao_31312,31312,group_ao_3131,Associadas,asset_non_current,False,Associadas
+ao_31321,31321,group_ao_3132,Nacionais,asset_non_current,False,Nacionais
+ao_31322,31322,group_ao_3132,Estrangeiros,asset_non_current,False,Estrangeiros
+ao_3161,3161,group_ao_316,Retenção Imposto Industrial,asset_non_current,False,Retenção Imposto Industrial
+ao_3162,3162,group_ao_316,Retenção Imposto Selo,asset_non_current,False,Retenção Imposto Selo
+ao_3163,3163,group_ao_316,Retenção Imp. Rend. de Trabalho,asset_non_current,False,Retenção Imp. Rend. de Trabalho
+ao_3164,3164,group_ao_316,Retenção Imp. Predial Urbano,asset_non_current,False,Retenção Imp. Predial Urbano
+ao_3165,3165,group_ao_316,Retenção Imp. Sobre Ap. de Capitais (IAC),asset_non_current,False,Retenção Imp. Sobre Ap. de Capitais (IAC)
+ao_3166,3166,group_ao_316,Outras Retenções,asset_non_current,False,Outras Retenções
+ao_3181,3181,group_ao_318,Clientes - correntes,asset_non_current,False,Clientes - correntes
+ao_3182,3182,group_ao_318,Clientes - títulos,asset_non_current,False,Clientes - títulos
+ao_3191,3191,group_ao_319,Adiantamentos,asset_non_current,False,Adiantamentos
+ao_3192,3192,group_ao_319,Embalagens a devolver,asset_non_current,False,Embalagens a devolver
+ao_3193,3193,group_ao_319,Material a consignação,asset_non_current,False,Material a consignação
+ao_35113,35113,group_ao_3511,C/Lucros,asset_non_current,False,C/Lucros
+ao_35114,35114,group_ao_3511,Empréstimos,asset_non_current,False,Empréstimos
+ao_35123,35123,group_ao_3512,C/Lucro,asset_non_current,False,C/Lucro
+ao_35124,35124,group_ao_3512,C/Empréstimo,asset_non_current,False,C/Empréstimo
+ao_35133,35133,group_ao_3513,C/Lucros,asset_non_current,False,C/Lucros
+ao_35134,35134,group_ao_3513,Empréstimos,asset_non_current,False,Empréstimos
+ao_35143,35143,group_ao_3514,C/Lucros,asset_non_current,False,C/Lucros
+ao_35144,35144,group_ao_3514,Empréstimos,asset_non_current,False,Empréstimos
+ao_35213,35213,group_ao_3521,C/Lucros,asset_non_current,False,C/Lucros
+ao_35214,35214,group_ao_3521,Empréstimos,asset_non_current,False,Empréstimos
+ao_35223,35223,group_ao_3522,C/Lucros,asset_non_current,False,C/Lucros
+ao_35224,35224,group_ao_3522,Empréstimos,asset_non_current,False,Empréstimos
+ao_35233,35233,group_ao_3523,C/Lucros,asset_non_current,False,C/Lucros
+ao_35234,35234,group_ao_3523,Empréstimos,asset_non_current,False,Empréstimos
+ao_35243,35243,group_ao_3524,C/Lucros,asset_non_current,False,C/Lucros
+ao_35244,35244,group_ao_3524,Empréstimos,asset_non_current,False,Empréstimos
+ao_211111,211111,group_ao_21111,Mp.MN-Custo de factura,asset_current,False,Mp.MN-Custo de factura
+ao_211118,211118,group_ao_21111,Mp.MN-imputações,asset_current,False,Mp.MN-imputações
+ao_211121,211121,group_ao_21112,Mp.MN-Custo de factura,asset_current,False,Mp.MN-Custo de factura
+ao_211128,211128,group_ao_21112,Mp.MN-imputações,asset_current,False,Mp.MN-imputações
+ao_211211,211211,group_ao_21121,Ms.MN-Custo de factura,asset_current,False,Ms.MN-Custo de factura
+ao_211218,211218,group_ao_21121,Ms.MN-imputações,asset_current,False,Ms.MN-imputações
+ao_211221,211221,group_ao_21122,Ms.MN-Custo de factura,asset_current,False,Ms.MN-Custo de factura
+ao_211228,211228,group_ao_21122,Ms.MN-imputações,asset_current,False,Ms.MN-imputações
+ao_211311,211311,group_ao_21131,Md.MN-Custo de factura,asset_current,False,Md.MN-Custo de factura
+ao_211318,211318,group_ao_21131,Md.MN-imputações,asset_current,False,Md.MN-imputações
+ao_211321,211321,group_ao_21132,Md.MN-Custo de factura,asset_current,False,Md.MN-Custo de factura
+ao_211328,211328,group_ao_21132,Md.MN-imputações,asset_current,False,Md.MN-imputações
+ao_211411,211411,group_ao_21141,Ec.MN-Custo de factura,asset_current,False,Ec.MN-Custo de factura
+ao_211418,211418,group_ao_21141,Ec.MN-imputações,asset_current,False,Ec.MN-imputações
+ao_211421,211421,group_ao_21142,Ec.MN-Custo de factura,asset_current,False,Ec.MN-Custo de factura
+ao_211428,211428,group_ao_21142,Ec.MN-imputações,asset_current,False,Ec.MN-imputações
+ao_211511,211511,group_ao_21151,Om.MN-Custo de factura,asset_current,False,Om.MN-Custo de factura
+ao_211518,211518,group_ao_21151,Om.MN-imputações,asset_current,False,Om.MN-imputações
+ao_211521,211521,group_ao_21152,Om.MN-Custo de factura,asset_current,False,Om.MN-Custo de factura
+ao_211528,211528,group_ao_21152,Om.MN-imputações,asset_current,False,Om.MN-imputações
+ao_212111,212111,group_ao_21211,Mr.MN-Custo de factura,asset_current,False,Mr.MN-Custo de factura
+ao_212118,212118,group_ao_21211,Mr.MN-imputações,asset_current,False,Mr.MN-imputações
+ao_212121,212121,group_ao_21212,Mr.MN-Custo de factura,asset_current,False,Mr.MN-Custo de factura
+ao_212128,212128,group_ao_21212,Mr.MN-imputações,asset_current,False,Mr.MN-imputações
+ao_214111,214111,group_ao_21411,Em.MN-Custo de factura,asset_current,False,Em.MN-Custo de factura
+ao_214118,214118,group_ao_21411,Em.MN-imputações,asset_current,False,Em.MN-imputações
+ao_214121,214121,group_ao_21412,Em.ME-Custo de factura,asset_current,False,Em.ME-Custo de factura
+ao_214128,214128,group_ao_21412,Em.ME-imputações,asset_current,False,Em.ME-imputações
+ao_217111,217111,group_ao_21711,Mp.-Mercado Nacional,asset_current,False,Mp.-Mercado Nacional
+ao_217112,217112,group_ao_21711,Mp.-Mercado Estrangeiro,asset_current,False,Mp.-Mercado Estrangeiro
+ao_217121,217121,group_ao_21712,Ms.-Mercado Nacional,asset_current,False,Ms.-Mercado Nacional
+ao_217122,217122,group_ao_21712,Ms.-Mercado Estrangeiro,asset_current,False,Ms.-Mercado Estrangeiro
+ao_217131,217131,group_ao_21713,Md.-Mercado Nacional,asset_current,False,Md.-Mercado Nacional
+ao_217132,217132,group_ao_21713,Md.-Mercado Estrangeiro,asset_current,False,Md.-Mercado Estrangeiro
+ao_217141,217141,group_ao_21714,Ec.-Mercado Nacional,asset_current,False,Ec.-Mercado Nacional
+ao_217142,217142,group_ao_21714,Ec.-Mercado Estrangeiro,asset_current,False,Ec.-Mercado Estrangeiro
+ao_217151,217151,group_ao_21715,Om.-Mercado Nacional,asset_current,False,Om.-Mercado Nacional
+ao_217152,217152,group_ao_21715,Om.-Mercado Estrangeiro,asset_current,False,Om.-Mercado Estrangeiro
+ao_217211,217211,group_ao_21721,Mr.-Mercado Nacional,asset_current,False,Mr.-Mercado Nacional
+ao_217212,217212,group_ao_21721,Mr.-Mercado Estrangeiro,asset_current,False,Mr.-Mercado Estrangeiro
+ao_217221,217221,group_ao_21722,Em.-Mercado Nacional,asset_current,False,Em.-Mercado Nacional
+ao_217222,217222,group_ao_21722,Em.-Mercado Estrangeiro,asset_current,False,Em.-Mercado Estrangeiro
+ao_218111,218111,group_ao_21811,Mp.-Mercado Nacional,asset_current,False,Mp.-Mercado Nacional
+ao_218112,218112,group_ao_21811,Mp.-Mercado Estrangeiro,asset_current,False,Mp.-Mercado Estrangeiro
+ao_218121,218121,group_ao_21812,Ms.-Mercado Nacional,asset_current,False,Ms.-Mercado Nacional
+ao_218122,218122,group_ao_21812,Ms.-Mercado Estrangeiro,asset_current,False,Ms.-Mercado Estrangeiro
+ao_218131,218131,group_ao_21813,Md.-Mercado Nacional,asset_current,False,Md.-Mercado Nacional
+ao_218132,218132,group_ao_21813,Md.-Mercado Estrangeiro,asset_current,False,Md.-Mercado Estrangeiro
+ao_218141,218141,group_ao_21814,Ec.-Mercado Nacional,asset_current,False,Ec.-Mercado Nacional
+ao_218142,218142,group_ao_21814,Ec.-Mercado Estrangeiro,asset_current,False,Ec.-Mercado Estrangeiro
+ao_218151,218151,group_ao_21815,Om.-Mercado Nacional,asset_current,False,Om.-Mercado Nacional
+ao_218152,218152,group_ao_21815,Om.-Mercado Estrangeiro,asset_current,False,Om.-Mercado Estrangeiro
+ao_218211,218211,group_ao_21821,Mr.-Mercado Nacional,asset_current,False,Mr.-Mercado Nacional
+ao_218212,218212,group_ao_21821,Mr.-Mercado Estrangeiro,asset_current,False,Mr.-Mercado Estrangeiro
+ao_218241,218241,group_ao_21824,Em.-Mercado Nacional,asset_current,False,Em.-Mercado Nacional
+ao_218242,218242,group_ao_21824,Em.-Mercado Estrangeiro,asset_current,False,Em.-Mercado Estrangeiro
+ao_2191,2191,group_ao_219,Descontos diversos,asset_current,False,Descontos diversos
+ao_2211,2211,group_ao_221,Mp-Existências,asset_current,False,Mp-Existências
+ao_2212,2212,group_ao_221,Mp-Ap.Custo exist.vend.e cons.,asset_current,False,Mp-Ap.Custo exist.vend.e cons.
+ao_2221,2221,group_ao_222,Ms-Existências,asset_current,False,Ms-Existências
+ao_2222,2222,group_ao_222,Ms-Ap.Custo exist.vend.e cons.,asset_current,False,Ms-Ap.Custo exist.vend.e cons.
+ao_2231,2231,group_ao_223,Md-Existências,asset_current,False,Md-Existências
+ao_2232,2232,group_ao_223,Md-Ap.Custo exist.vend.e cons.,asset_current,False,Md-Ap.Custo exist.vend.e cons.
+ao_2241,2241,group_ao_224,Ec-Existências,asset_current,False,Ec-Existências
+ao_2242,2242,group_ao_224,Ec-Ap.Custo exist.vend.e cons.,asset_current,False,Ec-Ap.Custo exist.vend.e cons.
+ao_2251,2251,group_ao_225,Om-Existências,asset_current,False,Om-Existências
+ao_2252,2252,group_ao_225,Om-Ap.Custo exist.vend.e cons.,asset_current,False,Om-Ap.Custo exist.vend.e cons.
+ao_2291,2291,group_ao_229,Adiantamentos a Fornecedores,asset_current,False,Adiantamentos a Fornecedores
+ao_2311,2311,group_ao_231,Ptc-Existências,asset_current,False,Ptc-Existências
+ao_2321,2321,group_ao_232,........................................,asset_current,False,........................................
+ao_2411,2411,group_ao_241,Pa-Existências,asset_current,False,Pa-Existências
+ao_2421,2421,group_ao_242,Pi-Existências,asset_current,False,Pi-Existências
+ao_2491,2491,group_ao_249,Ppt-Existências,asset_current,False,Ppt-Existências
+ao_2511,2511,group_ao_251,Sp-Existências,asset_current,False,Sp-Existências
+ao_2521,2521,group_ao_252,Drr-Existências,asset_current,False,Drr-Existências
+ao_2611,2611,group_ao_261,Mp-Existências,asset_current,False,Mp-Existências
+ao_2612,2612,group_ao_261,Mp-Ap.Custo exist.vend.e cons.,asset_current,False,Mp-Ap.Custo exist.vend.e cons.
+ao_2621,2621,group_ao_262,Em-Existências,asset_current,False,Em-Existências
+ao_2622,2622,group_ao_262,Em-Ap.Custo exist.vend.e cons.,asset_current,False,Em-Ap.Custo exist.vend.e cons.
+ao_2691,2691,group_ao_269,Em poder de terceiros,asset_current,False,Em poder de terceiros
+ao_2711,2711,group_ao_271,Mp.-Mercado Nacional,asset_current,False,Mp.-Mercado Nacional
+ao_2712,2712,group_ao_271,Mp.-Mercado Estrangeiro,asset_current,False,Mp.-Mercado Estrangeiro
+ao_2721,2721,group_ao_272,Om.-Mercado Nacional,asset_current,False,Om.-Mercado Nacional
+ao_2722,2722,group_ao_272,Om.-Mercado Estrangeiro,asset_current,False,Om.-Mercado Estrangeiro
+ao_2731,2731,group_ao_273,Mr.-Mercado Nacional,asset_current,False,Mr.-Mercado Nacional
+ao_2732,2732,group_ao_273,Mr.-Mercado Estrangeiro,asset_current,False,Mr.-Mercado Estrangeiro
+ao_2811,2811,group_ao_281,Mp.-Mercado Nacional,asset_current,False,Mp.-Mercado Nacional
+ao_2812,2812,group_ao_281,Mp.-Mercado Estrangeiro,asset_current,False,Mp.-Mercado Estrangeiro
+ao_2821,2821,group_ao_282,Mr.-Mercado Nacional,asset_current,False,Mr.-Mercado Nacional
+ao_2822,2822,group_ao_282,Mr.-Mercado Estrangeiro,asset_current,False,Mr.-Mercado Estrangeiro
+ao_2911,2911,group_ao_291,........................................,asset_current,False,........................................
+ao_2921,2921,group_ao_292,"Matérias-primas, subsidiárias e de consumo",asset_current,False,"Matérias-primas, subsidiárias e de consumo"
+ao_2931,2931,group_ao_293,Produtos e trabalhos em curso,asset_current,False,Produtos e trabalhos em curso
+ao_2941,2941,group_ao_294,Produtos acabados e intermédios,asset_current,False,Produtos acabados e intermédios
+ao_2951,2951,group_ao_295,"Subprodutos, desperdícios, resíduos e refugos",asset_current,False,"Subprodutos, desperdícios, resíduos e refugos"
+ao_2961,2961,group_ao_296,Mercadorias,asset_current,False,Mercadorias
+ao_3111001,3111001,group_ao_3111,Subsidiárias,asset_current,False,Subsidiárias
+ao_3111002,3111002,group_ao_3111,Associadas,asset_current,False,Associadas
+ao_34571,34571,group_ao_3457,IVA a recuperar de apuramentos,asset_current,False,IVA a recuperar de apuramentos
+ao_34572,34572,group_ao_3457,IVA a recuperar de cativo,asset_current,False,IVA a recuperar de cativo
+ao_34573,34573,group_ao_3457,IVA a Rec. de Dif. de Valores Apurados e Liq. Oficiosas,asset_current,False,IVA a Rec. de Dif. de Valores Apurados e Liq. Oficiosas
+ao_35111,35111,group_ao_3511,C/Subscrição,asset_current,False,C/Subscrição
+ao_35112,35112,group_ao_3511,C/Adiatamentos sobre lucros,asset_current,False,C/Adiatamentos sobre lucros
+ao_35121,35121,group_ao_3512,C/Subscrição,asset_current,False,C/Subscrição
+ao_35122,35122,group_ao_3512,C/Adiantamentos sobre lucros,asset_current,False,C/Adiantamentos sobre lucros
+ao_35131,35131,group_ao_3513,C/Subscrição,asset_current,False,C/Subscrição
+ao_35132,35132,group_ao_3513,C/Adiantamentos sobre lucros,asset_current,False,C/Adiantamentos sobre lucros
+ao_35141,35141,group_ao_3514,C/Subscrição,asset_current,False,C/Subscrição
+ao_35142,35142,group_ao_3514,C/Adiatamentos sobre lucros,asset_current,False,C/Adiatamentos sobre lucros
+ao_35211,35211,group_ao_3521,C/Subscrição,asset_current,False,C/Subscrição
+ao_35212,35212,group_ao_3521,C/Adiatamentos sobre lucros,asset_current,False,C/Adiatamentos sobre lucros
+ao_35221,35221,group_ao_3522,C/Subscrição,asset_current,False,C/Subscrição
+ao_35222,35222,group_ao_3522,C/Adiantamentos sobre lucros,asset_current,False,C/Adiantamentos sobre lucros
+ao_35231,35231,group_ao_3523,C/Subscrição,asset_current,False,C/Subscrição
+ao_35232,35232,group_ao_3523,C/Adiantamentos sobre lucros,asset_current,False,C/Adiantamentos sobre lucros
+ao_35241,35241,group_ao_3524,C/Subscrição,asset_current,False,C/Subscrição
+ao_35242,35242,group_ao_3524,C/Adiantamentos sobre lucros,asset_current,False,C/Adiantamentos sobre lucros
+ao_36311,36311,group_ao_3631,Adiantamentos orgãos sociais,asset_current,False,Adiantamentos orgãos sociais
+ao_36321,36321,group_ao_3632,Adiantamentos pessoal,asset_current,False,Adiantamentos pessoal
+ao_36911,36911,group_ao_3691,Órgãos sociais - outros,asset_current,False,Órgãos sociais - outros
+ao_36921,36921,group_ao_3692,Pessoal - outros,asset_current,False,Pessoal - outros
+ao_372111,372111,group_ao_37211,Nacionais,asset_current,False,Nacionais
+ao_372112,372112,group_ao_37211,Estrangeiros,asset_current,False,Estrangeiros
+ao_372211,372211,group_ao_37221,Nacionais,asset_current,False,Nacionais
+ao_372212,372212,group_ao_37221,Estrangeiros,asset_current,False,Estrangeiros
+ao_372311,372311,group_ao_37231,Nacionais,asset_current,False,Nacionais
+ao_372312,372312,group_ao_37231,Estrangeiros,asset_current,False,Estrangeiros
+ao_3731,3731,group_ao_373,Vendas,asset_current,False,Vendas
+ao_3732,3732,group_ao_373,Prestações de serviços,asset_current,False,Prestações de serviços
+ao_3733,3733,group_ao_373,Juros,asset_current,False,Juros
+ao_3741,3741,group_ao_374,Descontos de emissão de obrigações,asset_current,False,Descontos de emissão de obrigações
+ao_3742,3742,group_ao_374,Descontos de emissão de títulos de participação,asset_current,False,Descontos de emissão de títulos de participação
+ao_4111,4111,group_ao_411,Empresas do grupo,asset_current,False,Empresas do grupo
+ao_4112,4112,group_ao_411,Associadas,asset_current,False,Associadas
+ao_4113,4113,group_ao_411,Outras Empresas,asset_current,False,Outras Empresas
+ao_4121,4121,group_ao_412,Empresas do grupo,asset_current,False,Empresas do grupo
+ao_4122,4122,group_ao_412,Associadas,asset_current,False,Associadas
+ao_4123,4123,group_ao_412,Outras Empresas,asset_current,False,Outras Empresas
+ao_4131,4131,group_ao_413,........................................,asset_current,False,........................................
+ao_4211,42101,group_ao_421,Banco .....,asset_current,False,Banco .....
+ao_4212,42102,group_ao_421,Banco .....,asset_current,False,Banco .....
+ao_4221,42201,group_ao_422,Banco .....,asset_current,False,Banco .....
+ao_4222,42202,group_ao_422,Banco .....,asset_current,False,Banco .....
+ao_4411,44101,group_ao_441,Banco .....,asset_current,False,Banco .....
+ao_4412,44102,group_ao_441,Banco .....,asset_current,False,Banco .....
+ao_4421,44201,group_ao_442,Banco .....,asset_current,False,Banco .....
+ao_4422,44202,group_ao_442,Banco .....,asset_current,False,Banco .....
+ao_4521,4521,group_ao_452,Valores para depositar,asset_current,False,Valores para depositar
+ao_4531,4531,group_ao_453,Salários,asset_current,False,Salários
+ao_4811,4811,group_ao_481,Banco .....,asset_current,False,Banco .....
+ao_4812,4812,group_ao_481,…......................................,asset_current,False,…......................................
+ao_482,482,group_ao_48,De imobilizações corpóreas,asset_current,False,De imobilizações corpóreas
+ao_483,483,group_ao_48,De imobilizações incorpóreas,asset_current,False,De imobilizações incorpóreas
+ao_4911,4911,group_ao_491,Acções,asset_current,False,Acções
+ao_4912,4912,group_ao_491,Obrigações,asset_current,False,Obrigações
+ao_4913,4913,group_ao_491,Títulos da dívida pública,asset_current,False,Títulos da dívida pública
+ao_4921,4921,group_ao_492,........................................,asset_current,False,........................................
+ao_4321,43201,group_ao_432,Banco .....,asset_cash,False,Banco .....
+ao_4322,43202,group_ao_432,Banco .....,asset_cash,False,Banco .....

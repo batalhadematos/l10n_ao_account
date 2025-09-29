@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="account.action_account_form" model="ir.actions.act_window">
+        <field name="name">Chart of Accounts</field>
+        <field name="res_model">account.account</field>
+        <field name="view_mode">list,kanban,form</field>
+        <field name="search_view_id" ref="account.view_account_search"/>
+        <field name="view_id" ref="account.view_account_list"/>
+        <field name="help" type="html">
+          <p class="o_view_nocontent_smiling_face">
+            Add a new account
+          </p><p>
+            An account is part of a ledger allowing your company
+            to register all kinds of debit and credit transactions.
+            Companies present their annual accounts in two main parts: the
+            balance sheet and the income statement (profit and loss
+            account). The annual accounts of a company are required by law
+            to disclose a certain amount of information.
+          </p>
+        </field>
+        <field name="context">{'search_default_activeacc': True, 'show_view_accounts': True}</field>
+    </record>
+</odoo>
