@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from odoo import models, fields, api
-from odoo.osv import expression
+from odoo import models, api, fields
+from odoo.fields import Domain
 
 
 class AccountAccount(models.Model):
@@ -11,8 +11,8 @@ class AccountAccount(models.Model):
     
     
     @api.model
-    def _search(self, domain, offset=0, limit=None, order=None):
-        """ 
+    def _search(self, domain, offset=0, limit=None, order=None, **kw):
+        """
         O sistema gera erros em algumas rotinas que precisem dos campos do tipo 'view' em modo debug
         No odoo18, o modo debug é muito agressivo e não existe um contexto específico que permita detectar se estamos neste modo
         O modo debug é essencial em alguns casos e é preciso garantir que o sistema role sem erros.
@@ -32,18 +32,19 @@ class AccountAccount(models.Model):
         """
         # Casos específicos onde SEMPRE devem aparecer contas view
         always_show_cases = (
-            self._context.get('show_view_accounts') or
+            self.env.context.get('show_view_accounts') or
             self._is_specific_case_that_needs_views()
         )
         if always_show_cases:
-            return super()._search(domain, offset=offset, limit=limit, order=order)
+            return super()._search(domain, offset=offset, limit=limit, order=order, **kw)
         
-        # Para outros casos, excluir contas view
-        if not self._contains_view_account_filter(domain):
-            domain = expression.AND([domain, [('account_type', '!=', 'view')]])
+        # Para outros casos, excluir contas view 
+        if not self.env.context.get('show_view_accounts'):
+            domain = Domain(domain) & Domain([('account_type', '!=', 'view')])
         
-        return super()._search(domain, offset=offset, limit=limit, order=order)
+        return super()._search(domain, offset=offset, limit=limit, order=order, **kw)
 
+    
     
     @api.model
     def _contains_view_account_filter(self, domain):
@@ -73,13 +74,11 @@ class AccountAccount(models.Model):
     def _is_specific_case_that_needs_views(self):
         """Identifica casos específicos conhecidos que precisam de contas view"""
         # 1. Exportação de traduções
-        #contexto = self.env.context
-        #print('CONTEXTO:', contexto)
-        if self._context.get('check_translations'):
+        if self.env.context.get('check_translations'):
             return True
         
         # 2. Geração de relatórios específicos: exemplo de contexto...
-        if self._context.get('print_chart_of_accounts'):
+        if self.env.context.get('print_chart_of_accounts'):
             return True
             
         # 3. Ações administrativas conhecidas
