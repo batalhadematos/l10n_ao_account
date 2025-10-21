@@ -6,13 +6,13 @@
     'version': '1.0.0',
     'author': 'Paulo Matos',
     'website': 'https://github.com/batalhadematos',
-    'category': 'Accounting/Localizations/Account Charts',
+    'category': 'Localization',
     'description': """
-This is the module to manage the accounting chart for Angola in Odoo.
+This is the module to manage the accounting chart for Angola in Odoo 17.
 ========================================================================
 
 """,
-    
+    'images': ['static/description/module_image.png'],
     'depends': [
         'account',
     ],
