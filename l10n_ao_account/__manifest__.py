@@ -6,9 +6,9 @@
 
 {
     'name': 'Angola - Accounting',
-    'version': '0.4',
+    'version': '1.0.0',
     'author': 'Paulo Matos',
-    'website': 'batalhadematos@gmail.com',
+    'website': 'https://github.com/batalhadematos',
     'category': 'Localization',
     'description': """
     
@@ -27,10 +27,9 @@ Install Instructions:
 - Refer to notes
     
     """,
+    'depends': ['base', 'account'],
+    'images': ['static/description/module_image.png'],            
     
-    'depends': ['base',
-                'account',
-                ],
     'data': [
            'data/l10n_ao_chart_data.xml',
            'data/account_chart_template_data.xml',
