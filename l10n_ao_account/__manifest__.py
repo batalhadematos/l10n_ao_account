@@ -8,6 +8,7 @@
     'website': 'https://github.com/batalhadematos',
     'category': 'Localization',
     'description': """
+    
 This is the module to manage the accounting chart for Angola in Odoo 17.
 ========================================================================
 
