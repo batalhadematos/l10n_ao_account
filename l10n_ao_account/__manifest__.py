@@ -15,7 +15,7 @@
 Angola Basic Chart of Accounts (PGCA)
 ======================================
 
-Angolan basic charts for accounting and basic localization data.
+Angolan basic charts for accounting and basic localization data for Odoo 12.
 
 Includes:
     - Move accounts;
