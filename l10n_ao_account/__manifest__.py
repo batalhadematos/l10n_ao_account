@@ -22,10 +22,7 @@ Includes:
     - Provinces;
     - Banks;
     - Basic Tax setup (IVA);
-    
-Install Instructions:
-- Refer to notes
-    
+
     """,
     'depends': ['base', 'account'],
     'images': ['static/description/module_image.png'],            
